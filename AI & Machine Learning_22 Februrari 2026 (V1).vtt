@@ -1,0 +1,1843 @@
+WEBVTT
+
+00:19:52.133 --> 00:19:58.773
+<v MOHD SALMAN>Hello. Hello. Hi, good morning. I hope I&#39;m audible to all of you.</v>
+
+00:19:59.933 --> 00:20:06.453
+<v MOHD SALMAN>Just three or four have joined. I&#39;m going to start the session. Let me share my screen.</v>
+
+00:20:06.533 --> 00:20:06.933
+<v MOHD SALMAN>Screen.</v>
+
+00:20:10.493 --> 00:20:16.453
+<v MOHD SALMAN>So please make sure is everything fine, screen is visible and voice is clear to all of you.</v>
+
+00:20:22.253 --> 00:20:40.133
+<v MOHD SALMAN>Let&#39;s start. So we have seen the recap of Numpy yesterday. Today we are going to discuss about the pandas. One more library here in Python that is important for machine learning.</v>
+
+00:20:40.573 --> 00:20:54.813
+<v MOHD SALMAN>So we are going to discuss about the pandas. I will show you few basic things and then how we can use it in machine learning. Then we will go for the matplotlib. These things we are going to discuss today.</v>
+
+00:21:17.773 --> 00:21:19.013
+<v MOHD SALMAN>Let&#39;s begin.</v>
+
+00:21:38.053 --> 00:21:38.973
+<v MOHD SALMAN>There we go.</v>
+
+00:21:46.933 --> 00:21:48.053
+<v MOHD SALMAN>Will openly.</v>
+
+00:21:49.813 --> 00:21:50.773
+<v MOHD SALMAN>Call up.</v>
+
+00:21:55.653 --> 00:21:56.653
+<v MOHD SALMAN>New notebook.</v>
+
+00:22:10.493 --> 00:22:11.893
+<v MOHD SALMAN>Here it is.</v>
+
+00:22:23.253 --> 00:22:24.013
+<v MOHD SALMAN>One does.</v>
+
+00:22:26.773 --> 00:22:27.813
+<v MOHD SALMAN>Recap.</v>
+
+00:22:37.093 --> 00:22:39.053
+<v MOHD SALMAN>Here I have put one text.</v>
+
+00:22:41.093 --> 00:22:41.653
+<v MOHD SALMAN>It is.</v>
+
+00:22:55.253 --> 00:22:56.493
+<v MOHD SALMAN>Andas.</v>
+
+00:23:12.933 --> 00:23:13.253
+<v MOHD SALMAN>Windows.</v>
+
+00:23:15.973 --> 00:23:18.493
+<v MOHD SALMAN>Is uh Python library?</v>
+
+00:23:21.653 --> 00:23:22.053
+<v MOHD SALMAN>Really.</v>
+
+00:23:25.413 --> 00:23:27.413
+<v MOHD SALMAN>It is used.</v>
+
+00:23:30.693 --> 00:23:34.373
+<v MOHD SALMAN>For data analysis.</v>
+
+00:23:40.213 --> 00:23:42.213
+<v MOHD SALMAN>And data manipulation.</v>
+
+00:23:57.613 --> 00:23:57.973
+<v MOHD SALMAN>The.</v>
+
+00:23:59.693 --> 00:24:05.253
+<v MOHD SALMAN>And use data from CSV Excel.</v>
+
+00:24:10.053 --> 00:24:11.173
+<v MOHD SALMAN>For us for a day with.</v>
+
+00:24:19.293 --> 00:24:20.173
+<v MOHD SALMAN>So here is.</v>
+
+00:24:30.733 --> 00:24:34.013
+<v MOHD SALMAN>To use the pandas we can import.</v>
+
+00:24:38.093 --> 00:24:39.133
+<v MOHD SALMAN>And ours.</v>
+
+00:24:41.893 --> 00:24:43.413
+<v MOHD SALMAN>As PD.</v>
+
+00:24:59.093 --> 00:25:01.173
+<v MOHD SALMAN>We have imported it.</v>
+
+00:25:04.613 --> 00:25:08.253
+<v MOHD SALMAN>We can create the data series.</v>
+
+00:25:09.253 --> 00:25:09.493
+<v MOHD SALMAN>Period.</v>
+
+00:25:13.693 --> 00:25:14.013
+<v MOHD SALMAN>Read.</v>
+
+00:25:15.013 --> 00:25:16.693
+<v MOHD SALMAN>News in pandas.</v>
+
+00:25:18.933 --> 00:25:20.933
+<v MOHD SALMAN>Oh, I will create.</v>
+
+00:25:22.093 --> 00:25:37.973
+<v MOHD SALMAN>We can write here. For example, we have the data is equal to. We have put here your data, let&#39;s say 12243648.</v>
+
+00:25:39.453 --> 00:25:40.053
+<v MOHD SALMAN>60.</v>
+
+00:25:43.293 --> 00:25:47.613
+<v MOHD SALMAN>Environment what we have right here.</v>
+
+00:25:51.853 --> 00:25:53.733
+<v MOHD SALMAN>Data Srij.</v>
+
+00:25:57.173 --> 00:26:03.253
+<v MOHD SALMAN>Is equal to PD dot C data and we have print the data state.</v>
+
+00:26:04.653 --> 00:26:15.733
+<v MOHD SALMAN>The here is you have the here the indexing here the value zero. We have 12124236. This one we have that.</v>
+
+00:26:46.973 --> 00:26:53.933
+<v MOHD SALMAN>We can give these indexes the name also, for example this one we have.</v>
+
+00:26:55.253 --> 00:26:57.013
+<v MOHD SALMAN>We can write here.</v>
+
+00:27:07.893 --> 00:27:09.933
+<v MOHD SALMAN>Data Series 2.</v>
+
+00:27:10.813 --> 00:27:11.973
+<v MOHD SALMAN>Is equal to.</v>
+
+00:27:13.973 --> 00:27:14.773
+<v MOHD SALMAN>Data.</v>
+
+00:27:17.573 --> 00:27:18.013
+<v MOHD SALMAN>Call Mark.</v>
+
+00:27:19.613 --> 00:27:21.173
+<v MOHD SALMAN>We have right here index.</v>
+
+00:27:23.213 --> 00:27:24.213
+<v MOHD SALMAN>Is equal to.</v>
+
+00:27:26.253 --> 00:27:26.533
+<v MOHD SALMAN>Let&#39;s see.</v>
+
+00:27:30.733 --> 00:27:33.173
+<v MOHD SALMAN>This one or student one?</v>
+
+00:27:36.533 --> 00:27:37.013
+<v MOHD SALMAN>Oh my.</v>
+
+00:27:38.973 --> 00:27:39.413
+<v MOHD SALMAN>Student.</v>
+
+00:27:42.373 --> 00:27:42.533
+<v MOHD SALMAN>Cool.</v>
+
+00:27:54.653 --> 00:28:07.333
+<v MOHD SALMAN>You can see here this is student 1235. You can give the index a name also if you want that you can see here the data series. Do it quickly up to this level.</v>
+
+00:28:14.293 --> 00:28:15.093
+<v MOHD SALMAN>Do it.</v>
+
+00:34:10.573 --> 00:34:12.013
+<v MOHD SALMAN>Then up to this level.</v>
+
+00:34:12.773 --> 00:34:16.013
+<v MOHD SALMAN>Now let&#39;s move to the data frame.</v>
+
+00:34:25.493 --> 00:34:26.453
+<v MOHD SALMAN>Data frame.</v>
+
+00:34:32.293 --> 00:34:33.653
+<v MOHD SALMAN>What do you think?</v>
+
+00:34:35.053 --> 00:34:40.173
+<v MOHD SALMAN>So how like the data frame? Let me create one DF.</v>
+
+00:34:40.893 --> 00:34:46.093
+<v MOHD SALMAN>Is equal to PD dot data frame data series to the earth.</v>
+
+00:34:48.733 --> 00:34:56.293
+<v MOHD SALMAN>We&#39;ll find out here the data of it. This is the data frame. Let me create a auto generated data frame.</v>
+
+00:34:57.613 --> 00:35:03.773
+<v MOHD SALMAN>DF is equal to PT dot data frame.</v>
+
+00:35:06.133 --> 00:35:11.413
+<v MOHD SALMAN>And here is NP dot random.</v>
+
+00:35:13.853 --> 00:35:14.213
+<v MOHD SALMAN>Yes.</v>
+
+00:35:21.773 --> 00:35:29.973
+<v MOHD SALMAN>For NP we have to import the numpy. Let me import here only import numpy as NP.</v>
+
+00:35:34.333 --> 00:35:45.733
+<v MOHD SALMAN>This is your data free. So here the indexing here is the 012345 this one we have created.</v>
+
+00:35:47.333 --> 00:35:54.893
+<v MOHD SALMAN>One data frame. We can create the other data frame as well. Let me show you. For example, we have the data.</v>
+
+00:35:56.693 --> 00:35:57.973
+<v MOHD SALMAN>Set like this one.</v>
+
+00:35:59.653 --> 00:36:07.413
+<v MOHD SALMAN>We have the values we can read out from the CSV and all. So here I&#39;m writing the values for example name.</v>
+
+00:36:09.053 --> 00:36:12.213
+<v MOHD SALMAN>I have right here age.</v>
+
+00:36:13.773 --> 00:36:15.493
+<v MOHD SALMAN>I write here city.</v>
+
+00:36:19.813 --> 00:36:20.933
+<v MOHD SALMAN>And here it is.</v>
+
+00:36:22.453 --> 00:36:25.533
+<v MOHD SALMAN>PD dot data frame data set DL.</v>
+
+00:36:26.973 --> 00:36:29.773
+<v MOHD SALMAN>So we&#39;ll see here. This is your data.</v>
+
+00:36:30.773 --> 00:36:31.973
+<v MOHD SALMAN>Name is City.</v>
+
+00:36:35.973 --> 00:36:38.373
+<v MOHD SALMAN>So two data frames we have created. You can check.</v>
+
+00:42:00.613 --> 00:42:03.093
+<v MOHD SALMAN>Done all of you then up to this level.</v>
+
+00:42:04.733 --> 00:42:05.973
+<v MOHD SALMAN>See, we have uh.</v>
+
+00:42:07.893 --> 00:42:08.933
+<v MOHD SALMAN>See here.</v>
+
+00:42:10.013 --> 00:42:26.693
+<v MOHD SALMAN>We have created the data frame. I already told you we can read out the data from the CSV or Excel. Let me show you if you want to read out from the reading the from the CSV or Excel. So let me show you this one.</v>
+
+00:42:27.213 --> 00:42:33.973
+<v MOHD SALMAN>Then we will discuss how we will do the data clean and all. So here is the reading.</v>
+
+00:42:38.853 --> 00:42:40.133
+<v MOHD SALMAN>Data from.</v>
+
+00:42:41.973 --> 00:42:42.613
+<v MOHD SALMAN>Files.</v>
+
+00:42:44.693 --> 00:42:51.013
+<v MOHD SALMAN>So I&#39;m writing first reading data from CSV.</v>
+
+00:42:54.333 --> 00:43:02.813
+<v MOHD SALMAN>So what I will do is I&#39;m going to add here one CSV. We&#39;ll go here files. Here we&#39;ll go to this folder files folder.</v>
+
+00:43:05.973 --> 00:43:07.053
+<v MOHD SALMAN>Right click here upload.</v>
+
+00:43:11.053 --> 00:43:13.333
+<v MOHD SALMAN>And we will go to your folder only.</v>
+
+00:43:16.053 --> 00:43:18.373
+<v MOHD SALMAN>This is your IML evening.</v>
+
+00:43:20.893 --> 00:43:22.493
+<v MOHD SALMAN>The desktop holders.</v>
+
+00:43:24.293 --> 00:43:37.373
+<v MOHD SALMAN>Desktop. This is your folder and I think day #9 we have population by country. We update it.</v>
+
+00:43:45.013 --> 00:43:46.653
+<v MOHD SALMAN>We have the sex song.</v>
+
+00:43:48.973 --> 00:43:50.453
+<v MOHD SALMAN>You can see the properties.</v>
+
+00:43:58.933 --> 00:44:01.413
+<v MOHD SALMAN>This one is your Excel file.</v>
+
+00:44:12.853 --> 00:44:28.733
+<v MOHD SALMAN>This is 1 CSV file Netflix data. I have choose this one. It is in data and open. I put it here. If you don&#39;t have the data and one I can upload it. You can download from there.</v>
+
+00:44:33.693 --> 00:44:42.853
+<v MOHD SALMAN>OK, let me just upload it for you. I will go here. IML evening. I will put it here one folder.</v>
+
+00:44:46.733 --> 00:44:48.173
+<v MOHD SALMAN>New folder.</v>
+
+00:44:49.413 --> 00:44:50.293
+<v MOHD SALMAN>The number.</v>
+
+00:44:52.013 --> 00:44:52.653
+<v MOHD SALMAN>423.</v>
+
+00:44:57.933 --> 00:44:59.973
+<v MOHD SALMAN>There we have put it.</v>
+
+00:45:13.333 --> 00:45:14.653
+<v MOHD SALMAN>Both I am putting here.</v>
+
+00:45:16.653 --> 00:45:18.053
+<v MOHD SALMAN>You close it.</v>
+
+00:45:24.853 --> 00:45:26.933
+<v MOHD SALMAN>Day number 43.</v>
+
+00:45:29.133 --> 00:45:31.613
+<v MOHD SALMAN>I have put both the files over here.</v>
+
+00:45:32.453 --> 00:45:38.773
+<v MOHD SALMAN>So I will upload it on GitHub. You can download from there as well if you want open terminal.</v>
+
+00:45:42.413 --> 00:45:48.493
+<v MOHD SALMAN>Good. Add all, good.</v>
+
+00:45:50.413 --> 00:45:51.413
+<v MOHD SALMAN>Do.</v>
+
+00:45:57.653 --> 00:45:59.013
+<v MOHD SALMAN>What is 3?</v>
+
+00:46:01.493 --> 00:46:01.733
+<v MOHD SALMAN>Start.</v>
+
+00:46:02.733 --> 00:46:04.453
+<v MOHD SALMAN>With push.</v>
+
+00:46:14.773 --> 00:46:18.293
+<v MOHD SALMAN>We have pushed it. You can go here.</v>
+
+00:46:24.213 --> 00:46:24.773
+<v MOHD SALMAN>GitHub.com.</v>
+
+00:46:26.653 --> 00:46:29.173
+<v MOHD SALMAN>And you can download it from the GitHub.</v>
+
+00:46:30.573 --> 00:46:38.213
+<v MOHD SALMAN>You all know the retub link, right? You don&#39;t know. If you not remember, I will put in the chat also.</v>
+
+00:47:02.493 --> 00:47:13.333
+<v MOHD SALMAN>The branch is green. Nothing is to update. Let me just put one thing. Let me put this one as well here find.</v>
+
+00:47:14.533 --> 00:47:14.773
+<v MOHD SALMAN>So.</v>
+
+00:47:16.613 --> 00:47:17.013
+<v MOHD SALMAN>File.</v>
+
+00:47:18.933 --> 00:47:19.933
+<v MOHD SALMAN>Download.</v>
+
+00:47:29.293 --> 00:47:36.933
+<v MOHD SALMAN>DA foot P3 open save. So I have saved that one as well here.</v>
+
+00:47:40.013 --> 00:47:43.973
+<v MOHD SALMAN>Is it fresh? This one is here. Let me open in terminal.</v>
+
+00:47:47.893 --> 00:47:48.613
+<v MOHD SALMAN>Get.</v>
+
+00:47:50.213 --> 00:47:51.573
+<v MOHD SALMAN>Add all.</v>
+
+00:47:53.773 --> 00:47:56.613
+<v MOHD SALMAN>With commit hyphen name.</v>
+
+00:47:58.213 --> 00:47:59.533
+<v MOHD SALMAN>One does.</v>
+
+00:48:01.173 --> 00:48:02.333
+<v MOHD SALMAN>The recap.</v>
+
+00:48:04.053 --> 00:48:05.093
+<v MOHD SALMAN>With push.</v>
+
+00:48:09.333 --> 00:48:11.613
+<v MOHD SALMAN>So this is your link.</v>
+
+00:48:13.293 --> 00:48:16.053
+<v MOHD SALMAN>Then copy from here control C.</v>
+
+00:48:16.733 --> 00:48:18.213
+<v MOHD SALMAN>We can go to the ground.</v>
+
+00:48:20.733 --> 00:48:23.053
+<v MOHD SALMAN>And you can open it over here.</v>
+
+00:48:24.013 --> 00:48:33.333
+<v MOHD SALMAN>This is the link and from here you can download both this XRM and the Netflix data that we can use.</v>
+
+00:48:34.853 --> 00:48:37.013
+<v MOHD SALMAN>The number.</v>
+
+00:48:38.653 --> 00:48:40.533
+<v MOHD SALMAN>43 here is.</v>
+
+00:48:44.093 --> 00:48:47.453
+<v MOHD SALMAN>Yeah, I wanted it. Let me put this link in your chat.</v>
+
+00:48:49.373 --> 00:48:53.253
+<v MOHD SALMAN>I&#39;ll put the link in chat. You can download from here and upload over here.</v>
+
+00:48:58.853 --> 00:49:07.533
+<v MOHD SALMAN>Do it and upload here Netflix data dot CSV. Then we will read out and discuss other stuff. Do up to this level quickly.</v>
+
+00:53:10.333 --> 00:53:20.373
+<v MOHD SALMAN>Done. Now let&#39;s read out from this file. What we&#39;ll do here, we will create the data frame DF and we will give the name to this data frame is Netflix.</v>
+
+00:53:23.253 --> 00:53:34.613
+<v MOHD SALMAN>Netflix is equal to PD dot read CSV. This one this path you can copy, copy the path and you can paste it over here.</v>
+
+00:53:38.533 --> 00:53:40.613
+<v MOHD SALMAN>Netflix and you can display.</v>
+
+00:53:42.213 --> 00:53:44.893
+<v MOHD SALMAN>So here is DF Netflix.</v>
+
+00:53:46.973 --> 00:53:55.413
+<v MOHD SALMAN>There is a lot of lot of data. If you want to see only the top records, you can go for that one as well.</v>
+
+00:53:59.773 --> 00:54:03.093
+<v MOHD SALMAN>This is from the CSV we can we have read out.</v>
+
+00:54:04.533 --> 00:54:11.213
+<v MOHD SALMAN>If you want to write only the top records, so you can write here TF Netflix.</v>
+
+00:54:13.373 --> 00:54:18.733
+<v MOHD SALMAN>dot had had will give you the top five records.</v>
+
+00:54:19.893 --> 00:54:22.253
+<v MOHD SALMAN>So there is top five records.</v>
+
+00:54:26.933 --> 00:54:39.533
+<v MOHD SALMAN>If you want to see the last five records, you can write here the netflix.pl. It will give you the last five records.</v>
+
+00:54:44.333 --> 00:55:00.853
+<v MOHD SALMAN>You want to check how many records are there? How many things are there? You can write here TF dot shape if you want to find out the number of rows and columns TF Netflix.</v>
+
+00:55:03.013 --> 00:55:05.173
+<v MOHD SALMAN>Netflix shape.</v>
+
+00:55:07.093 --> 00:55:08.093
+<v MOHD SALMAN>Will they tell you?</v>
+
+00:55:10.173 --> 00:55:19.813
+<v MOHD SALMAN>The number of records, rows and columns. So here is 7787 rows and 11 columns.</v>
+
+00:55:22.333 --> 00:55:24.853
+<v MOHD SALMAN>First is row, the second one is column.</v>
+
+00:55:26.293 --> 00:55:27.653
+<v MOHD SALMAN>We want to see.</v>
+
+00:55:29.093 --> 00:55:30.773
+<v MOHD SALMAN>OK, do up to this level.</v>
+
+00:55:35.173 --> 00:55:54.573
+<v MOHD SALMAN>So here we have read out from the Netflix. So to read we have write PD dot read CSV. We have write to the path and we have display. We have seen the top records return the first N rows the top five by default. If you write the two so it will show you the two. If you write 10 it will show you the 10. If you write 3 it will show you that.</v>
+
+00:55:55.053 --> 00:56:11.453
+<v MOHD SALMAN>By default if you write anything that is five and it will show you the last record. This one is the last return last and rows. The function return last and rows from the object based on the position and by default it will return the five.</v>
+
+00:56:11.573 --> 00:56:15.373
+<v MOHD SALMAN>This is the shape. This is a property shape.</v>
+
+00:56:19.213 --> 00:56:26.573
+<v MOHD SALMAN>And the shape property return you the number of rows and column return the tuple presenting the dimensity of the data frame.</v>
+
+00:56:29.173 --> 00:56:33.213
+<v MOHD SALMAN>OK, dimension do it quickly.</v>
+
+01:02:28.693 --> 01:02:33.853
+<v MOHD SALMAN>Done. Now let&#39;s see here if you want to see some.</v>
+
+01:02:34.573 --> 01:02:38.773
+<v MOHD SALMAN>A read out from the excel how you will do it. Similarly you will upload here.</v>
+
+01:02:40.733 --> 01:02:46.373
+<v MOHD SALMAN>Upload the this exams. Uh, let me go to your folder Andy.</v>
+
+01:02:50.533 --> 01:02:53.613
+<v MOHD SALMAN>You can upload this exams open.</v>
+
+01:03:00.053 --> 01:03:00.173
+<v MOHD SALMAN>Both.</v>
+
+01:03:04.453 --> 01:03:05.533
+<v MOHD SALMAN>Let me write here, dear.</v>
+
+01:03:07.853 --> 01:03:08.053
+<v MOHD SALMAN>Exam.</v>
+
+01:03:09.933 --> 01:03:11.013
+<v MOHD SALMAN>Is equal to.</v>
+
+01:03:13.333 --> 01:03:13.453
+<v MOHD SALMAN>Read.</v>
+
+01:03:14.853 --> 01:03:15.133
+<v MOHD SALMAN>Home.</v>
+
+01:03:17.093 --> 01:03:17.893
+<v MOHD SALMAN>Who be the bad?</v>
+
+01:03:19.573 --> 01:03:21.093
+<v MOHD SALMAN>From this particular path.</v>
+
+01:03:30.413 --> 01:03:33.893
+<v MOHD SALMAN>Mm-hmm. This is also the CS week.</v>
+
+01:03:38.333 --> 01:03:46.493
+<v MOHD SALMAN>Let me add something else. Some Excel file. This is also CSV one to this one. BBD sorry DFXR.</v>
+
+01:03:48.053 --> 01:03:53.573
+<v MOHD SALMAN>So you have to read same VD dot read CSV.</v>
+
+01:03:55.133 --> 01:03:58.133
+<v MOHD SALMAN>Because it&#39;s not Excel contain exam.</v>
+
+01:03:59.333 --> 01:04:02.053
+<v MOHD SALMAN>dot CSV exams dot CSV.</v>
+
+01:04:04.653 --> 01:04:09.093
+<v MOHD SALMAN>First let me know that error. This is exams.csv.</v>
+
+01:04:10.573 --> 01:04:19.053
+<v MOHD SALMAN>I will tell you the Excel also, but this is the CSV file. So let&#39;s read out from the CSV. So you have this thing here.</v>
+
+01:04:21.693 --> 01:04:23.693
+<v MOHD SALMAN>Let me put one excel file.</v>
+
+01:04:54.013 --> 01:04:56.013
+<v MOHD SALMAN>Sorry, one second properties.</v>
+
+01:05:01.253 --> 01:05:03.093
+<v MOHD SALMAN>This is also Excel CSV.</v>
+
+01:05:15.293 --> 01:05:15.773
+<v MOHD SALMAN>Properties.</v>
+
+01:05:38.333 --> 01:05:47.253
+<v MOHD SALMAN>OK, I will show you the Excel also. Let me just one download one Excel and show first we&#39;ll do what this level we have created this one.</v>
+
+01:05:53.133 --> 01:06:09.013
+<v MOHD SALMAN>Now if you want to see here the any specific columns, you have this this one gender, lunch, Math score, writing score.</v>
+
+01:06:09.653 --> 01:06:21.373
+<v MOHD SALMAN>All these things you have here O for example we want to see only the math score O how we&#39;ll do or we will go here DF exam.</v>
+
+01:06:23.453 --> 01:06:40.253
+<v MOHD SALMAN>And we want to see only the math score. So here is math score. So you can see a particular column. This is a particular column. You want to see the multiple columns. You can write this way.</v>
+
+01:06:40.773 --> 01:06:43.333
+<v MOHD SALMAN>DF Exam.</v>
+
+01:06:44.773 --> 01:06:51.813
+<v MOHD SALMAN>You want to see the multiple columns, for example you want to see here.</v>
+
+01:06:53.973 --> 01:06:54.933
+<v MOHD SALMAN>Is.</v>
+
+01:06:56.933 --> 01:06:57.293
+<v MOHD SALMAN>Launch.</v>
+
+01:07:01.733 --> 01:07:03.693
+<v MOHD SALMAN>Write the score.</v>
+
+01:07:07.613 --> 01:07:09.053
+<v MOHD SALMAN>So here it&#39;s.</v>
+
+01:07:09.933 --> 01:07:11.573
+<v MOHD SALMAN>London Math score.</v>
+
+01:07:13.013 --> 01:07:19.653
+<v MOHD SALMAN>Do it quickly. You can see one column, we can see the multiple columns. We can read out this way.</v>
+
+01:07:21.893 --> 01:07:25.173
+<v MOHD SALMAN>If you want to see the particular column.</v>
+
+01:11:38.013 --> 01:11:51.573
+<v MOHD SALMAN>So we have seen the comments column selection. If you want to see the row, let&#39;s see if you want to see the row wise row selection, you want to see the first row. So have you like DF exam?</v>
+
+01:11:55.173 --> 01:11:57.853
+<v MOHD SALMAN>dot ILOC 0.</v>
+
+01:12:00.533 --> 01:12:02.213
+<v MOHD SALMAN>This is your first row.</v>
+
+01:12:03.613 --> 01:12:05.373
+<v MOHD SALMAN>Gender and male.</v>
+
+01:12:18.373 --> 01:12:20.053
+<v MOHD SALMAN>You want to see?</v>
+
+01:12:25.893 --> 01:12:26.533
+<v MOHD SALMAN>EF Exam.</v>
+
+01:12:31.253 --> 01:12:32.133
+<v MOHD SALMAN>dot LOC.</v>
+
+01:12:33.773 --> 01:12:34.053
+<v MOHD SALMAN>0.</v>
+
+01:12:36.973 --> 01:12:38.733
+<v MOHD SALMAN>This is using label.</v>
+
+01:12:39.893 --> 01:12:43.853
+<v MOHD SALMAN>Let me do one more thing, one more time. I have run it.</v>
+
+01:12:44.573 --> 01:12:51.533
+<v MOHD SALMAN>Fine, I have run it here. I&#39;m not use these columns and all. I will go here.</v>
+
+01:12:58.453 --> 01:12:59.213
+<v MOHD SALMAN>Gender.</v>
+
+01:13:00.973 --> 01:13:08.653
+<v MOHD SALMAN>This first you have got. We&#39;ll see here based on the label. This is based on the label.</v>
+
+01:13:15.093 --> 01:13:17.053
+<v MOHD SALMAN>So indexing this is.</v>
+
+01:13:35.773 --> 01:13:41.093
+<v MOHD SALMAN>You can filter the data also if you want to find out the let&#39;s say.</v>
+
+01:13:42.573 --> 01:13:44.413
+<v MOHD SALMAN>The DF exam.</v>
+
+01:13:45.533 --> 01:13:47.973
+<v MOHD SALMAN>I do want the math score.</v>
+
+01:13:52.053 --> 01:13:52.933
+<v MOHD SALMAN>EF Exam.</v>
+
+01:13:55.853 --> 01:14:09.813
+<v MOHD SALMAN>Let me just show you first the what all math scores we have. Here is 6773607885. I want to see more than 90, so let me write here.</v>
+
+01:14:12.093 --> 01:14:12.773
+<v MOHD SALMAN>Yeah.</v>
+
+01:14:13.573 --> 01:14:14.853
+<v MOHD SALMAN>And DF.</v>
+
+01:14:16.133 --> 01:14:16.333
+<v MOHD SALMAN>Exam.</v>
+
+01:14:21.413 --> 01:14:23.013
+<v MOHD SALMAN>DF exam.</v>
+
+01:14:25.973 --> 01:14:26.973
+<v MOHD SALMAN>That is cool.</v>
+
+01:14:28.373 --> 01:14:29.453
+<v MOHD SALMAN>Greater than 90.</v>
+
+01:14:36.413 --> 01:14:51.493
+<v MOHD SALMAN>This is not known as filtering, so we have filtered out the report based on the exams who have got the greater than 90 if we want only the 100% one control C.</v>
+
+01:14:53.293 --> 01:14:59.733
+<v MOHD SALMAN>Code here is control V we have right math score is equal to equal to 100.</v>
+
+01:15:03.733 --> 01:15:05.533
+<v MOHD SALMAN>With only 100.</v>
+
+01:15:06.653 --> 01:15:08.133
+<v MOHD SALMAN>Here it is.</v>
+
+01:15:10.653 --> 01:15:15.493
+<v MOHD SALMAN>This is those the records. Those guys go to the 100 in maps.</v>
+
+01:15:19.053 --> 01:15:25.253
+<v MOHD SALMAN>So we will see here these things. This is the filter. These are two filter examples.</v>
+
+01:15:26.893 --> 01:15:40.813
+<v MOHD SALMAN>So here we have seen the row selection based on the index here based on the label X is a group of rows, column by labels and this one is the filter and this one is also the filter example. Do it quickly.</v>
+
+01:16:48.933 --> 01:16:51.973
+<v MOHD SALMAN>Done this level.</v>
+
+01:16:56.653 --> 01:17:13.013
+<v MOHD SALMAN>Thanks. Now let&#39;s see here if you want to see the other stuff related to this one. Let&#39;s see if you want to see the all the information about this data set, we can write DF exam dot info.</v>
+
+01:17:19.133 --> 01:17:25.693
+<v MOHD SALMAN>So you&#39;ll find out the information. It&#39;s a it&#39;s gonna print a concise summary of data frame.</v>
+
+01:17:27.453 --> 01:17:42.933
+<v MOHD SALMAN>Let&#39;s print the methods information, what we have, all the things here, the gender, race, null, not null, not null, object, data type, all the details. We can also have one more.</v>
+
+01:17:43.413 --> 01:17:53.893
+<v MOHD SALMAN>Here this one going to generate the descriptive statics. So we will write here DF exam.</v>
+
+01:17:55.373 --> 01:17:55.853
+<v MOHD SALMAN>dot describe.</v>
+
+01:17:59.933 --> 01:18:14.373
+<v MOHD SALMAN>It will going to write here the total math score, reading score, writing score. Total count is 1000 records are here, meaning this one standard deviation, this one minimum is this much.</v>
+
+01:18:14.893 --> 01:18:29.813
+<v MOHD SALMAN>Maximum is this much and the 25% is 5650% is 6675% is 77. So you can see here the description of statics.</v>
+
+01:18:30.173 --> 01:18:39.933
+<v MOHD SALMAN>So describe will show you the statics description. You can see here using the describe.</v>
+
+01:18:41.933 --> 01:18:53.573
+<v MOHD SALMAN>If you want to see the data types, just the data types, so you can write here DF exam dot data types D types.</v>
+
+01:18:54.973 --> 01:19:06.133
+<v MOHD SALMAN>It will show you the data types. So we have the gender is object, rays, object, object, object. Math is for in 64 and 64 writing is for in 64.</v>
+
+01:20:07.693 --> 01:20:19.733
+<v MOHD SALMAN>Then if you want to remove a particular column from a data frame, you can use that row. Let me show you here if we write TF exam.</v>
+
+01:20:25.373 --> 01:20:32.213
+<v MOHD SALMAN>You will see here we have gender, race, lunch, test preparation.</v>
+
+01:20:33.493 --> 01:20:44.213
+<v MOHD SALMAN>All these things we have. For example, I want to remove this parental level of education. This one I want to remove.</v>
+
+01:20:46.653 --> 01:20:55.813
+<v MOHD SALMAN>Control C What I have done here is I have right here DF exam.</v>
+
+01:20:57.493 --> 01:20:58.973
+<v MOHD SALMAN>dot drop.</v>
+
+01:21:00.253 --> 01:21:02.453
+<v MOHD SALMAN>And I have right this one.</v>
+
+01:21:03.693 --> 01:21:06.893
+<v MOHD SALMAN>Parental level education.</v>
+
+01:21:11.813 --> 01:21:12.413
+<v MOHD SALMAN>And.</v>
+
+01:21:17.373 --> 01:21:17.733
+<v MOHD SALMAN>Access.</v>
+
+01:21:20.373 --> 01:21:21.213
+<v MOHD SALMAN>Is equal to 1.</v>
+
+01:21:23.053 --> 01:21:33.493
+<v MOHD SALMAN>And here is in place is equal to full. We have executed this one. Now after executing this one I have write TF exam.</v>
+
+01:21:36.253 --> 01:21:44.053
+<v MOHD SALMAN>So in place true means it will change here also, so that parental level is bound.</v>
+
+01:21:48.173 --> 01:21:58.853
+<v MOHD SALMAN>So you can do this. You can draw a particular column if you want to draw from the existing data frame using this way. Do it quickly.</v>
+
+01:28:30.293 --> 01:28:45.493
+<v MOHD SALMAN>So done. Now let&#39;s take a short break, just 25 minutes and we will come back. We will discuss about how we will take it from the Excel and then we will go for the next thing, the matplotlib and all.</v>
+
+01:28:46.413 --> 01:28:53.933
+<v MOHD SALMAN>So here is I&#39;m putting one break so you guys can go and come back. So refresh yourself and come back.</v>
+
+01:28:55.013 --> 01:28:56.013
+<v MOHD SALMAN>The log.</v>
+
+01:29:10.973 --> 01:29:15.413
+<v MOHD SALMAN>This is break for all of you. Let&#39;s go and come back.</v>
+
+02:00:42.333 --> 02:00:43.213
+<v MOHD SALMAN>Hey, welcome back.</v>
+
+02:00:44.253 --> 02:00:53.933
+<v MOHD SALMAN>So we have seen up to this level. Let me just use the Excel sheet as well. We&#39;ll go here drive.</v>
+
+02:00:55.573 --> 02:00:57.493
+<v MOHD SALMAN>I will download the employees.selects.</v>
+
+02:00:59.453 --> 02:01:00.413
+<v MOHD SALMAN>Here it is.</v>
+
+02:01:01.933 --> 02:01:02.533
+<v MOHD SALMAN>Download.</v>
+
+02:01:08.973 --> 02:01:09.373
+<v MOHD SALMAN>So.</v>
+
+02:01:11.813 --> 02:01:18.613
+<v MOHD SALMAN>And I will upload it on your GitHub as well. So I will go here IML evening.</v>
+
+02:01:22.853 --> 02:01:25.973
+<v MOHD SALMAN>Here it is open terminal.</v>
+
+02:01:30.773 --> 02:01:36.253
+<v MOHD SALMAN>Git add all git commit hyphen name.</v>
+
+02:01:38.573 --> 02:01:39.773
+<v MOHD SALMAN>Employees.</v>
+
+02:01:41.613 --> 02:01:43.213
+<v MOHD SALMAN>dot XLX.</v>
+
+02:01:47.173 --> 02:01:48.173
+<v MOHD SALMAN>Good push.</v>
+
+02:01:49.733 --> 02:01:51.613
+<v MOHD SALMAN>I&#39;ll push it.</v>
+
+02:01:52.693 --> 02:01:55.893
+<v MOHD SALMAN>Well, go to the link. The link is already in chat.</v>
+
+02:02:00.813 --> 02:02:02.373
+<v MOHD SALMAN>You can see it here.</v>
+
+02:02:09.933 --> 02:02:10.173
+<v MOHD SALMAN>Here.</v>
+
+02:02:11.413 --> 02:02:18.333
+<v MOHD SALMAN>Inside the day #43, you will find out this employees.xlx as well.</v>
+
+02:02:19.413 --> 02:02:24.493
+<v MOHD SALMAN>This one you can download and upload it over here. We&#39;ll go here.</v>
+
+02:02:26.093 --> 02:02:27.053
+<v MOHD SALMAN>Right click.</v>
+
+02:02:29.653 --> 02:02:30.733
+<v MOHD SALMAN>Clear files.</v>
+
+02:02:32.413 --> 02:02:33.973
+<v MOHD SALMAN>Click on Upload.</v>
+
+02:02:35.453 --> 02:02:38.333
+<v MOHD SALMAN>And we have uploaded this employees.xlx.</v>
+
+02:02:40.813 --> 02:02:40.973
+<v MOHD SALMAN>Open.</v>
+
+02:02:46.013 --> 02:02:47.613
+<v MOHD SALMAN>Go up to this level quickly.</v>
+
+02:08:07.973 --> 02:08:15.373
+<v MOHD SALMAN>Now let&#39;s start. You have uploaded all of you, right? Let&#39;s do it quickly now. I&#39;m writing here.</v>
+
+02:08:17.453 --> 02:08:20.413
+<v MOHD SALMAN>Cash reading from.</v>
+
+02:08:21.613 --> 02:08:23.853
+<v MOHD SALMAN>Excel X from Excel.</v>
+
+02:08:31.853 --> 02:08:33.453
+<v MOHD SALMAN>Reading from Excel.</v>
+
+02:08:34.893 --> 02:08:37.573
+<v MOHD SALMAN>Here is I&#39;m going to use.</v>
+
+02:08:39.253 --> 02:08:41.293
+<v MOHD SALMAN>Import pandas.</v>
+
+02:08:43.213 --> 02:08:57.573
+<v MOHD SALMAN>As PD so I&#39;m writing it from the scratch earlier thing I I need to run now so here is reading from exit. So we have import the pandas then we are going to write here DF is equal to PD.</v>
+
+02:08:58.493 --> 02:08:59.253
+<v MOHD SALMAN>dot read.</v>
+
+02:09:01.213 --> 02:09:03.613
+<v MOHD SALMAN>Excel and we will write the.</v>
+
+02:09:04.813 --> 02:09:11.773
+<v MOHD SALMAN>The path of Excel copy path. We have put the path over here control V.</v>
+
+02:09:13.973 --> 02:09:28.893
+<v MOHD SALMAN>So we have read out. We want to see DF. So here is your DF. There is ID, name, department, age, salary, experience, city. All these things are here you want to see.</v>
+
+02:09:29.693 --> 02:09:37.853
+<v MOHD SALMAN>The top five or top two or top three DF dot had. We want to see top three records. So here are the top three.</v>
+
+02:09:40.453 --> 02:09:48.373
+<v MOHD SALMAN>Here are the top three records, first three. You want to see the last three DF dot had. I have read the last three.</v>
+
+02:09:51.013 --> 02:09:52.573
+<v MOHD SALMAN>They&#39;re the last three.</v>
+
+02:10:00.293 --> 02:10:08.973
+<v MOHD SALMAN>And if you want to see any random rows, you can use the the sample. First we&#39;ll do up to this level quickly.</v>
+
+02:15:47.253 --> 02:15:49.693
+<v MOHD SALMAN>Done. None of you. None of this level.</v>
+
+02:15:52.333 --> 02:16:02.253
+<v MOHD SALMAN>If you want to see any random records, So how we&#39;ll do is code, we will let me fetch out.</v>
+
+02:16:07.053 --> 02:16:08.173
+<v MOHD SALMAN>Random.</v>
+
+02:16:10.973 --> 02:16:12.413
+<v MOHD SALMAN>5 rose.</v>
+
+02:16:15.733 --> 02:16:19.013
+<v MOHD SALMAN>From DF data frame.</v>
+
+02:16:21.173 --> 02:16:24.773
+<v MOHD SALMAN>We have IDF dot sample 5.</v>
+
+02:16:26.453 --> 02:16:34.573
+<v MOHD SALMAN>So it will show you any random 5 rows. It&#39;s not in any order 104, 101, 106, 108, 103.</v>
+
+02:16:43.773 --> 02:16:52.973
+<v MOHD SALMAN>You want to see all the things, data types, column, missing values, all those things, data types.</v>
+
+02:16:58.093 --> 02:16:59.133
+<v MOHD SALMAN>Missing values.</v>
+
+02:17:02.853 --> 02:17:08.133
+<v MOHD SALMAN>In one go. So what we will do DF dot in the.</v>
+
+02:17:10.493 --> 02:17:12.933
+<v MOHD SALMAN>It will give you all that information.</v>
+
+02:17:14.893 --> 02:17:21.613
+<v MOHD SALMAN>So here are the data types, missing values, number of columns, all the things you want to find out.</v>
+
+02:17:22.933 --> 02:17:25.733
+<v MOHD SALMAN>The number of rows and columns.</v>
+
+02:17:26.693 --> 02:17:30.293
+<v MOHD SALMAN>Find out number of rows.</v>
+
+02:17:31.933 --> 02:17:33.373
+<v MOHD SALMAN>Rows and columns.</v>
+
+02:17:38.853 --> 02:17:52.573
+<v MOHD SALMAN>What we&#39;ll do is we&#39;ll write here DF dot shape will give you the rows and column. This is the property, so we&#39;ll not write this small bracket after this, the parentheses after that.</v>
+
+02:17:54.093 --> 02:17:59.693
+<v MOHD SALMAN>If you want to see only the column name, so you can write here TF dot columns.</v>
+
+02:18:01.413 --> 02:18:11.853
+<v MOHD SALMAN>It will give you the only the column names. So here are all the columns. If you want to see only the data types, you can write DF dot types.</v>
+
+02:18:16.293 --> 02:18:21.733
+<v MOHD SALMAN>If you want only the data types, you can write DF dot D types.</v>
+
+02:18:22.853 --> 02:18:32.373
+<v MOHD SALMAN>Will give you the data types. Do it. So here the random here the all the information rows and columns. Here only the column here only the data types.</v>
+
+02:19:56.573 --> 02:20:02.933
+<v MOHD SALMAN>So let me show you a few more things quickly, then I will ask you an exercise. So here is.</v>
+
+02:20:06.013 --> 02:20:07.333
+<v MOHD SALMAN>DF dot.</v>
+
+02:20:08.613 --> 02:20:09.093
+<v MOHD SALMAN>Describe.</v>
+
+02:20:17.173 --> 02:20:21.773
+<v MOHD SALMAN>We have a dot describe. It will give you the statics about this.</v>
+
+02:20:23.613 --> 02:20:37.933
+<v MOHD SALMAN>So I have showed twice all those things with CSV, now with Excel. If you want to find out a specific column so you can write it this way. For example you want to find out DF.</v>
+
+02:20:38.413 --> 02:20:42.213
+<v MOHD SALMAN>Only the name. So here is the name.</v>
+
+02:20:43.173 --> 02:20:54.173
+<v MOHD SALMAN>The DF name so you will find out all the names. If you want two things or three things DF you want to find out the name.</v>
+
+02:20:54.213 --> 02:20:54.493
+<v MOHD SALMAN>We.</v>
+
+02:20:55.613 --> 02:20:56.893
+<v MOHD SALMAN>Call my salary.</v>
+
+02:21:00.173 --> 02:21:12.413
+<v MOHD SALMAN>Salary will do this thing. Say the name and salary. If you will see ADF describe we have employee ID KHX experience as well.</v>
+
+02:21:13.973 --> 02:21:19.813
+<v MOHD SALMAN>So here is code we will write here.</v>
+
+02:21:22.573 --> 02:21:22.733
+<v MOHD SALMAN>Name.</v>
+
+02:21:28.293 --> 02:21:28.373
+<v MOHD SALMAN>Age.</v>
+
+02:21:37.013 --> 02:21:39.653
+<v MOHD SALMAN>So if you want few columns you can do that.</v>
+
+02:21:41.573 --> 02:21:45.653
+<v MOHD SALMAN>So I have showed you two, I have showed you three. You can check four as well.</v>
+
+02:22:02.973 --> 02:22:04.333
+<v MOHD SALMAN>Do it quickly.</v>
+
+02:27:06.733 --> 02:27:22.133
+<v MOHD SALMAN>Done up to this level. So we have seen here describe we have seen the name, we have seen the two columns. How we&#39;ll find 3 columns if you want to check how we&#39;ll find. So filter we have seen in the CSV example also. Let&#39;s see here if we want to do the.</v>
+
+02:27:22.133 --> 02:27:28.093
+<v MOHD SALMAN>Filter based on some criteria. For example here let me go for filtering.</v>
+
+02:27:29.893 --> 02:27:48.893
+<v MOHD SALMAN>So for example here we see the DF. So DF have here the employee ID, name, salary, city and the all these things we have if we want to filter based on the department or based on the salary or based on the city. So we can do it if you want to see for example.</v>
+
+02:27:49.493 --> 02:27:57.413
+<v MOHD SALMAN>The employees record who have the salary more than 50,000. So how we&#39;ll do it? We will write here DF.</v>
+
+02:27:58.853 --> 02:28:00.573
+<v MOHD SALMAN>We are DF salary.</v>
+
+02:28:03.413 --> 02:28:07.813
+<v MOHD SALMAN>Yeah, we were late here. The salary is greater than.</v>
+
+02:28:09.533 --> 02:28:11.213
+<v MOHD SALMAN>Salary is greater than.</v>
+
+02:28:15.213 --> 02:28:16.053
+<v MOHD SALMAN>50,000.</v>
+
+02:28:18.453 --> 02:28:18.933
+<v MOHD SALMAN>50,000.</v>
+
+02:28:24.453 --> 02:28:25.533
+<v MOHD SALMAN>And drink.</v>
+
+02:28:26.453 --> 02:28:26.813
+<v MOHD SALMAN>Salary.</v>
+
+02:28:29.253 --> 02:28:30.253
+<v MOHD SALMAN>Get it to them.</v>
+
+02:28:34.133 --> 02:28:49.453
+<v MOHD SALMAN>50K here is the question. So here is these are 60526555. These are the employee if you want to see the employees who belongs to Delhi.</v>
+
+02:28:50.013 --> 02:28:56.493
+<v MOHD SALMAN>So we won&#39;t write here control VDF. Here we write city.</v>
+
+02:28:58.813 --> 02:28:59.093
+<v MOHD SALMAN>12 to.</v>
+
+02:29:02.573 --> 02:29:04.773
+<v MOHD SALMAN>City will do, will do.</v>
+
+02:29:06.533 --> 02:29:07.053
+<v MOHD SALMAN>Early.</v>
+
+02:29:08.653 --> 02:29:08.813
+<v MOHD SALMAN>So.</v>
+
+02:29:14.813 --> 02:29:16.213
+<v MOHD SALMAN>From Delhi.</v>
+
+02:29:20.053 --> 02:29:30.173
+<v MOHD SALMAN>So here are the employees who are from Delhi 123. If you want to see in a particular department, you can write here DF.</v>
+
+02:29:33.813 --> 02:29:36.773
+<v MOHD SALMAN>Where&#39;s the department?</v>
+
+02:29:39.533 --> 02:29:40.373
+<v MOHD SALMAN>PPT.</v>
+
+02:29:42.013 --> 02:29:42.813
+<v MOHD SALMAN>Is it going to?</v>
+
+02:29:46.013 --> 02:29:47.293
+<v MOHD SALMAN>Let&#39;s say IT.</v>
+
+02:29:58.773 --> 02:30:00.853
+<v MOHD SALMAN>This is department.</v>
+
+02:30:23.453 --> 02:30:24.733
+<v MOHD SALMAN>What to say?</v>
+
+02:30:30.493 --> 02:30:43.373
+<v MOHD SALMAN>Double exception was occurred. The department. If we have a list, OK, there is 2T in department. That&#39;s why remove 1P from here. Let&#39;s see here. It&#39;s OK now.</v>
+
+02:30:44.613 --> 02:31:00.893
+<v MOHD SALMAN>Here is department ITIT. So we have seen here if you want to find or we want to do the filtering, we want to check where the salary is greater than this one, where the city is this, where the department is this. We can filter the data and it will give you the things.</v>
+
+02:31:00.933 --> 02:31:13.413
+<v MOHD SALMAN>We can write the combined also multiple condition. Also we can write for example DF. We have write these two condition together. Here the department is equal to 80.</v>
+
+02:31:18.453 --> 02:31:19.533
+<v MOHD SALMAN>Control C.</v>
+
+02:31:24.613 --> 02:31:28.493
+<v MOHD SALMAN>We have right this one DF deartment ID.</v>
+
+02:31:30.773 --> 02:31:31.613
+<v MOHD SALMAN>One condition.</v>
+
+02:31:34.413 --> 02:31:37.333
+<v MOHD SALMAN>This is the first condition and.</v>
+
+02:31:43.413 --> 02:32:00.373
+<v MOHD SALMAN>And the second condition DFCT is Delhi, Delhi and this one. So here is the AR from IT and from Delhi as well. So you can write the multiple condition as well.</v>
+
+02:32:07.933 --> 02:32:08.333
+<v MOHD SALMAN>Dude.</v>
+
+02:38:41.653 --> 02:38:42.253
+<v MOHD SALMAN>I&#39;m done.</v>
+
+02:38:53.653 --> 02:38:57.733
+<v MOHD SALMAN>In turn up to this level, one of you, yes or no.</v>
+
+02:39:16.773 --> 02:39:28.253
+<v MOHD SALMAN>So the same thing we can also write using the queries way. For example this first one, this one the base on salary. Let me show you that.</v>
+
+02:39:38.133 --> 02:39:43.333
+<v MOHD SALMAN>We can write here DF dot query department is equal to I2.</v>
+
+02:39:45.533 --> 02:39:52.093
+<v MOHD SALMAN>So you will see here code. Let me write one more.</v>
+
+02:39:54.573 --> 02:39:55.933
+<v MOHD SALMAN>Don&#39;t see.</v>
+
+02:39:57.293 --> 02:40:01.013
+<v MOHD SALMAN>DF salary.</v>
+
+02:40:07.373 --> 02:40:12.293
+<v MOHD SALMAN>Salary greater than 50,000.</v>
+
+02:40:18.413 --> 02:40:23.533
+<v MOHD SALMAN>This is the query way to write the same thing. There is 1 too.</v>
+
+02:40:30.653 --> 02:40:31.973
+<v MOHD SALMAN>You want to show it?</v>
+
+02:40:33.613 --> 02:40:36.453
+<v MOHD SALMAN>Sort TF.</v>
+
+02:40:38.053 --> 02:40:38.813
+<v MOHD SALMAN>This one.</v>
+
+02:40:40.373 --> 02:40:41.133
+<v MOHD SALMAN>Salary.</v>
+
+02:40:44.133 --> 02:40:49.573
+<v MOHD SALMAN>Let here TF sort value by salary.</v>
+
+02:40:52.533 --> 02:40:54.813
+<v MOHD SALMAN>Yeah, this early voice shorter.</v>
+
+02:40:58.493 --> 02:41:01.693
+<v MOHD SALMAN>If you want in the reverse order descending.</v>
+
+02:41:03.293 --> 02:41:04.733
+<v MOHD SALMAN>You can write here.</v>
+
+02:41:09.373 --> 02:41:10.013
+<v MOHD SALMAN>dot.</v>
+
+02:41:12.813 --> 02:41:13.693
+<v MOHD SALMAN>Designment.</v>
+
+02:41:18.053 --> 02:41:19.173
+<v MOHD SALMAN>It&#39;s a link fault.</v>
+
+02:41:20.933 --> 02:41:24.493
+<v MOHD SALMAN>So here by default is ascending. We have write ascending fault.</v>
+
+02:41:25.573 --> 02:41:32.653
+<v MOHD SALMAN>So here the query is we have showed you the shorting, we have showed you those earlier thing that we have done.</v>
+
+02:41:44.133 --> 02:41:51.533
+<v MOHD SALMAN>We can use like in SQL Server the group by close or we can use group by.</v>
+
+02:41:55.613 --> 02:41:56.413
+<v MOHD SALMAN>Goodbye.</v>
+
+02:41:58.493 --> 02:41:59.773
+<v MOHD SALMAN>Celery.</v>
+
+02:42:02.413 --> 02:42:02.533
+<v MOHD SALMAN>Some.</v>
+
+02:42:07.773 --> 02:42:10.773
+<v MOHD SALMAN>Rupai Department.</v>
+
+02:42:13.573 --> 02:42:28.373
+<v MOHD SALMAN>Salary sum. So what I will write here DF group by department salary sum. So this will give you the department wide salary, HR this much, IT this much, sales this much. Do it quickly.</v>
+
+02:44:22.573 --> 02:44:28.933
+<v MOHD SALMAN>Done at this level, all of you, yes or no? Any doubt, question up to now?</v>
+
+02:44:31.573 --> 02:44:48.093
+<v MOHD SALMAN>Thanks. So we have done up to this level. We have seen the queries where we have seen the normal ways to remove the column. I also showed you already. Let me show you here also if you want to remove the column or we want to add a new column.</v>
+
+02:44:48.533 --> 02:44:51.853
+<v MOHD SALMAN>So to remove the column I have showed you here.</v>
+
+02:44:55.013 --> 02:44:56.093
+<v MOHD SALMAN>This one for.</v>
+
+02:45:03.413 --> 02:45:14.933
+<v MOHD SALMAN>the DFX arm drop. This is the removing the column. Similarly, we can write for this one as well if you want to remove a particular column.</v>
+
+02:45:16.173 --> 02:45:18.413
+<v MOHD SALMAN>So we will write here DF.</v>
+
+02:45:19.453 --> 02:45:19.693
+<v MOHD SALMAN>Draw.</v>
+
+02:45:22.413 --> 02:45:27.053
+<v MOHD SALMAN>Let me check what we have inside RDF. Hold on.</v>
+
+02:45:28.293 --> 02:45:35.773
+<v MOHD SALMAN>ID, name, deartment, age, salary, city for example age I want to drop so I have right here.</v>
+
+02:45:37.893 --> 02:45:38.493
+<v MOHD SALMAN>H.</v>
+
+02:45:45.413 --> 02:45:50.013
+<v MOHD SALMAN>H We have done this one now after dropping.</v>
+
+02:45:52.413 --> 02:45:54.213
+<v MOHD SALMAN>Related drop.</v>
+
+02:45:55.773 --> 02:45:57.493
+<v MOHD SALMAN>The column.</v>
+
+02:46:00.133 --> 02:46:07.893
+<v MOHD SALMAN>From data frame we have done this one. I will see the DF.</v>
+
+02:46:11.653 --> 02:46:29.173
+<v MOHD SALMAN>So age is no no longer there. If you want to add or you just find out the had just to check we have had of all three first three reports. So we&#39;ll see here ID name department and this one age is not here.</v>
+
+02:46:31.013 --> 02:46:41.253
+<v MOHD SALMAN>So this way we can drop the column. If you want to add a new column, for example we want to add the bonus, so we&#39;ll like DF bonus.</v>
+
+02:46:44.013 --> 02:46:58.493
+<v MOHD SALMAN>Dropping I have showed you. Now let me show you adding. So bonus is equal to. We want to create a column based on the salary. So for example the bonus is 15% of salary into.</v>
+
+02:47:00.293 --> 02:47:06.693
+<v MOHD SALMAN>0.15 S 15% of the cell we have added this one.</v>
+
+02:47:10.013 --> 02:47:15.053
+<v MOHD SALMAN>And now after adding this, let me write here TF dot had.</v>
+
+02:47:16.813 --> 02:47:16.973
+<v MOHD SALMAN>3.</v>
+
+02:47:19.453 --> 02:47:24.613
+<v MOHD SALMAN>So we&#39;ll see here the bonus. If you want to add the text, let&#39;s say the.</v>
+
+02:47:25.573 --> 02:47:31.173
+<v MOHD SALMAN>12% is the tax we have right DF, let&#39;s see.</v>
+
+02:47:31.933 --> 02:47:32.133
+<v MOHD SALMAN>Text.</v>
+
+02:47:35.133 --> 02:47:39.733
+<v MOHD SALMAN>Is equal to TF salary.</v>
+
+02:47:48.773 --> 02:48:00.973
+<v MOHD SALMAN>0.1212% is the tax. Here&#39;s the tax code. Then write here TF dot sample NE 3.</v>
+
+02:48:03.893 --> 02:48:14.333
+<v MOHD SALMAN>Or had or tell whatever you want to check. I have so example so the text as well. So do it quickly. I will drop the column here is add the column.</v>
+
+02:48:18.053 --> 02:48:20.533
+<v MOHD SALMAN>One new column.</v>
+
+02:48:26.133 --> 02:48:30.253
+<v MOHD SALMAN>Here the drop the column here add the column. There is also add the column do it.</v>
+
+02:48:32.533 --> 02:48:48.413
+<v MOHD SALMAN>What we have done here we have create, we have add or drop a age column and then we have shown you top three. Then we have add the bonus. I have showed you top three. Then I have added the text and I have showed you the random three. Do it.</v>
+
+02:57:29.613 --> 02:57:44.733
+<v MOHD SALMAN>Done. Now let me give you one exercise that you have to do after this. Let me put one one Excel sheet for you. Based on this you have to write the things.</v>
+
+02:57:45.013 --> 02:57:53.533
+<v MOHD SALMAN>So all those things you have to do in this section sheet. So here is let me download and put in your folder.</v>
+
+02:57:56.093 --> 02:57:56.733
+<v MOHD SALMAN>Download.</v>
+
+02:58:01.813 --> 02:58:04.573
+<v MOHD SALMAN>And I have put in new folder save.</v>
+
+02:58:06.053 --> 02:58:07.973
+<v MOHD SALMAN>Let me upload it as well.</v>
+
+02:58:11.453 --> 02:58:19.973
+<v MOHD SALMAN>Here we go. Terminal git add all git commit hyphen name.</v>
+
+02:58:23.693 --> 02:58:25.813
+<v MOHD SALMAN>Employee performance.</v>
+
+02:58:38.373 --> 02:58:39.613
+<v MOHD SALMAN>With push.</v>
+
+02:58:58.733 --> 02:58:59.293
+<v MOHD SALMAN>Where is the link?</v>
+
+02:59:09.413 --> 02:59:13.533
+<v MOHD SALMAN>And download from here this employee performance.</v>
+
+02:59:26.293 --> 02:59:34.893
+<v MOHD SALMAN>So before I will give you the exercise, let me show you one more thing here. Here we have done all these things.</v>
+
+02:59:37.413 --> 02:59:37.933
+<v MOHD SALMAN>First.</v>
+
+02:59:44.853 --> 02:59:46.853
+<v MOHD SALMAN>Let&#39;s see here code.</v>
+
+02:59:48.893 --> 02:59:49.813
+<v MOHD SALMAN>BF.</v>
+
+02:59:51.933 --> 02:59:52.573
+<v MOHD SALMAN>dot.</v>
+
+02:59:54.253 --> 02:59:55.373
+<v MOHD SALMAN>And largest.</v>
+
+02:59:58.253 --> 02:59:59.493
+<v MOHD SALMAN>5 salary.</v>
+
+03:00:00.133 --> 03:00:05.373
+<v MOHD SALMAN>So top five sell lead want to see where the top five sell lead.</v>
+
+03:00:07.613 --> 03:00:07.853
+<v MOHD SALMAN>Help.</v>
+
+03:00:11.693 --> 03:00:13.853
+<v MOHD SALMAN>Right, so I love you.</v>
+
+03:00:16.733 --> 03:00:18.933
+<v MOHD SALMAN>And let me give you the exercise.</v>
+
+03:00:21.053 --> 03:00:22.173
+<v MOHD SALMAN>Now exercise.</v>
+
+03:00:46.093 --> 03:00:47.653
+<v MOHD SALMAN>Number one download.</v>
+
+03:00:51.613 --> 03:00:52.333
+<v MOHD SALMAN>Employee.</v>
+
+03:00:56.813 --> 03:00:58.213
+<v MOHD SALMAN>Performance.</v>
+
+03:01:01.453 --> 03:01:02.253
+<v MOHD SALMAN>dot XLX.</v>
+
+03:01:03.853 --> 03:01:03.933
+<v MOHD SALMAN>Um.</v>
+
+03:01:06.493 --> 03:01:08.893
+<v MOHD SALMAN>GitHub #2.</v>
+
+03:01:12.813 --> 03:01:13.573
+<v MOHD SALMAN>Read out.</v>
+
+03:01:20.413 --> 03:01:22.493
+<v MOHD SALMAN>Read out excel file.</v>
+
+03:01:27.613 --> 03:01:28.893
+<v MOHD SALMAN>Data frame.</v>
+
+03:01:34.493 --> 03:01:34.773
+<v MOHD SALMAN>Find.</v>
+
+03:01:36.493 --> 03:01:37.453
+<v MOHD SALMAN>Random.</v>
+
+03:01:42.893 --> 03:01:43.053
+<v MOHD SALMAN>And.</v>
+
+03:01:44.053 --> 03:01:46.533
+<v MOHD SALMAN>Let&#39;s say 7.</v>
+
+03:01:47.733 --> 03:01:49.653
+<v MOHD SALMAN>Is it too random?</v>
+
+03:01:52.613 --> 03:01:53.533
+<v MOHD SALMAN>First.</v>
+
+03:01:56.253 --> 03:01:59.973
+<v MOHD SALMAN>And last records.</v>
+
+03:02:04.333 --> 03:02:05.453
+<v MOHD SALMAN>Number 10.</v>
+
+03:02:15.533 --> 03:02:18.253
+<v MOHD SALMAN>dot reply.</v>
+
+03:02:20.253 --> 03:02:21.693
+<v MOHD SALMAN>Employees by.</v>
+
+03:02:23.333 --> 03:02:24.573
+<v MOHD SALMAN>Performance.</v>
+
+03:02:31.653 --> 03:02:34.333
+<v MOHD SALMAN>My performance score.</v>
+
+03:02:39.933 --> 03:02:45.053
+<v MOHD SALMAN>It&#39;s written there in your Excel is like this so you can go this way.</v>
+
+03:03:11.933 --> 03:03:13.373
+<v MOHD SALMAN>Find out.</v>
+
+03:03:17.733 --> 03:03:18.493
+<v MOHD SALMAN>Oh.</v>
+
+03:03:20.813 --> 03:03:21.573
+<v MOHD SALMAN>Perform.</v>
+
+03:03:41.013 --> 03:03:41.453
+<v MOHD SALMAN>Bird.</v>
+
+03:03:44.973 --> 03:03:46.413
+<v MOHD SALMAN>One more call up.</v>
+
+03:03:48.373 --> 03:03:48.653
+<v MOHD SALMAN>Bonus.</v>
+
+03:03:51.653 --> 03:03:52.413
+<v MOHD SALMAN>This on.</v>
+
+03:04:03.253 --> 03:04:03.573
+<v MOHD SALMAN>Bonus.</v>
+
+03:04:06.013 --> 03:04:07.293
+<v MOHD SALMAN>Is equal though.</v>
+
+03:04:09.773 --> 03:04:11.533
+<v MOHD SALMAN>10% of.</v>
+
+03:04:13.173 --> 03:04:30.413
+<v MOHD SALMAN>So this much you have to do fine. So link I have already pasted in the chat as well. So download employee performance XLX read out excel file in data frame in data frame DF you can give any name.</v>
+
+03:04:32.533 --> 03:04:46.013
+<v MOHD SALMAN>Find out find 2 random two first and last record. Find out two random first and last record. Sort employs by performance score. Find out top three performers.</v>
+
+03:04:52.573 --> 03:05:09.613
+<v MOHD SALMAN>Performance and add one more column bonus based on salary. Bonus is equal to 10% of the salary. This one we have to do. So all these things I already have told you many many times and today also we have done this.</v>
+
+03:05:09.893 --> 03:05:17.293
+<v MOHD SALMAN>So you got time to start. Now you will do it. It will take hardly 10 to 15 minutes. So I&#39;m giving you 15 minutes, dude.</v>
+
+03:22:50.013 --> 03:22:54.813
+<v MOHD SALMAN>Done all of you. Do you want to show any of you?</v>
+
+03:23:35.733 --> 03:23:42.493
+<v MOHD SALMAN>Hello have you done any of you want to show or should I show you the solution?</v>
+
+03:23:48.773 --> 03:23:50.573
+<v MOHD SALMAN>Any of you want to show?</v>
+
+03:23:51.853 --> 03:23:55.053
+<v MOHD SALMAN>No one see.</v>
+
+03:23:57.973 --> 03:23:58.933
+<v MOHD SALMAN>Actually, you should do it.</v>
+
+03:24:00.133 --> 03:24:05.173
+<v MOHD SALMAN>But I don&#39;t know why you are not able to do it. Let me just show you the solution.</v>
+
+03:24:05.893 --> 03:24:07.773
+<v MOHD SALMAN>So what we&#39;ll do is we will go here.</v>
+
+03:24:11.133 --> 03:24:11.773
+<v MOHD SALMAN>Upload.</v>
+
+03:24:13.493 --> 03:24:17.413
+<v MOHD SALMAN>We&#39;ll upload the employee performance open.</v>
+
+03:24:20.253 --> 03:24:26.653
+<v MOHD SALMAN>So I have downloaded and uploaded read out Excel from the data frame the first one.</v>
+
+03:24:33.773 --> 03:24:34.653
+<v MOHD SALMAN>Read out Excel.</v>
+
+03:24:38.133 --> 03:24:39.853
+<v MOHD SALMAN>From the date of it.</v>
+
+03:24:43.733 --> 03:24:43.933
+<v MOHD SALMAN>Dear.</v>
+
+03:24:46.253 --> 03:24:48.093
+<v MOHD SALMAN>PF performance.</v>
+
+03:24:49.573 --> 03:24:54.693
+<v MOHD SALMAN>PD read consent employee performance and here is TF.</v>
+
+03:24:56.013 --> 03:24:56.613
+<v MOHD SALMAN>Performance.</v>
+
+03:24:58.493 --> 03:24:59.133
+<v MOHD SALMAN>None.</v>
+
+03:25:01.453 --> 03:25:05.653
+<v MOHD SALMAN>We have done this one, so we have read out in the data frame.</v>
+
+03:25:07.413 --> 03:25:10.293
+<v MOHD SALMAN>This is the first one. The first question is answered.</v>
+
+03:25:12.893 --> 03:25:16.173
+<v MOHD SALMAN>The second one is find out random first last.</v>
+
+03:25:23.173 --> 03:25:24.173
+<v MOHD SALMAN>Control me.</v>
+
+03:25:27.973 --> 03:25:28.973
+<v MOHD SALMAN>Tour and.</v>
+
+03:25:31.533 --> 03:25:32.533
+<v MOHD SALMAN>Oh, here it is.</v>
+
+03:25:38.973 --> 03:25:40.213
+<v MOHD SALMAN>DF dot.</v>
+
+03:25:43.613 --> 03:25:44.733
+<v MOHD SALMAN>Random 2.</v>
+
+03:25:46.973 --> 03:25:48.253
+<v MOHD SALMAN>Random 2.</v>
+
+03:25:52.533 --> 03:25:54.293
+<v MOHD SALMAN>You have performance.</v>
+
+03:25:58.613 --> 03:26:00.413
+<v MOHD SALMAN>Totally done too.</v>
+
+03:26:12.013 --> 03:26:16.093
+<v MOHD SALMAN>So random tools we want for that we have to write sample.</v>
+
+03:26:19.733 --> 03:26:26.893
+<v MOHD SALMAN>So it is random too. The second one is we want to 1st for first we can use.</v>
+
+03:26:28.493 --> 03:26:28.613
+<v MOHD SALMAN>Had.</v>
+
+03:26:38.253 --> 03:26:40.173
+<v MOHD SALMAN>dot had to.</v>
+
+03:26:42.653 --> 03:26:44.893
+<v MOHD SALMAN>Then the third one.</v>
+
+03:26:46.213 --> 03:26:47.333
+<v MOHD SALMAN>We want to find out.</v>
+
+03:26:49.093 --> 03:26:50.813
+<v MOHD SALMAN>EF Performance.</v>
+
+03:26:52.733 --> 03:26:54.133
+<v MOHD SALMAN>dot TL2.</v>
+
+03:26:58.373 --> 03:27:01.253
+<v MOHD SALMAN>Last book. This will show you the last book.</v>
+
+03:27:02.893 --> 03:27:10.493
+<v MOHD SALMAN>Do it quickly. We have read out. We have find out the random. We have find out the head. We have find out the tail.</v>
+
+03:31:22.493 --> 03:31:32.333
+<v MOHD SALMAN>Done. This second one is also answered. The third one is short employee by performance score. We&#39;ll see.</v>
+
+03:31:39.533 --> 03:31:44.173
+<v MOHD SALMAN>Here is short employee by performance score.</v>
+
+03:31:45.973 --> 03:31:46.453
+<v MOHD SALMAN>Here it is.</v>
+
+03:31:48.973 --> 03:31:49.413
+<v MOHD SALMAN>DF.</v>
+
+03:31:51.173 --> 03:32:00.093
+<v MOHD SALMAN>Performance dot short values by performance score.</v>
+
+03:32:02.533 --> 03:32:15.933
+<v MOHD SALMAN>So this is the short employees by performance score 7075 and so on. If you want in descending this one as well so you can write the same thing and.</v>
+
+03:32:21.013 --> 03:32:21.373
+<v MOHD SALMAN>Coma.</v>
+
+03:32:26.773 --> 03:32:29.093
+<v MOHD SALMAN>Ascending is called to force.</v>
+
+03:32:32.293 --> 03:32:47.973
+<v MOHD SALMAN>Ascending false means this is descending. This is descending. So I have asked you short employees by performance score. So if you want to short by default the short means the ascending order, but I have showed you here the descending as well.</v>
+
+03:32:50.653 --> 03:32:51.413
+<v MOHD SALMAN>The next is.</v>
+
+03:32:52.773 --> 03:32:55.853
+<v MOHD SALMAN>Find out the Uh top three performer.</v>
+
+03:33:02.333 --> 03:33:03.053
+<v MOHD SALMAN>Here it is.</v>
+
+03:33:05.573 --> 03:33:20.253
+<v MOHD SALMAN>Find out top three performer that I showed you. You have write DF performance dot enlargest three based on the performance score.</v>
+
+03:33:23.893 --> 03:33:26.813
+<v MOHD SALMAN>So here are three top three performer.</v>
+
+03:33:28.773 --> 03:33:32.413
+<v MOHD SALMAN>This is 959288 is up 3.</v>
+
+03:33:33.573 --> 03:33:34.213
+<v MOHD SALMAN>The test.</v>
+
+03:33:36.333 --> 03:33:37.773
+<v MOHD SALMAN>Do it quickly.</v>
+
+03:37:12.333 --> 03:37:15.653
+<v MOHD SALMAN>Done. Now let&#39;s see the next one is.</v>
+
+03:37:16.613 --> 03:37:20.133
+<v MOHD SALMAN>But I have lost card one more column based on salary.</v>
+
+03:37:23.813 --> 03:37:25.573
+<v MOHD SALMAN>I said that one as well.</v>
+
+03:37:28.973 --> 03:37:29.213
+<v MOHD SALMAN>Bored.</v>
+
+03:37:30.053 --> 03:37:30.573
+<v MOHD SALMAN>12B.</v>
+
+03:37:33.533 --> 03:37:38.413
+<v MOHD SALMAN>Add one more column base one salad so we&#39;ll write here DF.</v>
+
+03:37:41.373 --> 03:37:56.573
+<v MOHD SALMAN>Performance bonus DF performance bonus is 10% of the salary. We have done this one we have added. Now you can check DF performance dot head.</v>
+
+03:37:57.893 --> 03:38:15.133
+<v MOHD SALMAN>So just see five and you will see here the bonus also here. So 10 percent 5504 thousand 545 thousand 4565 six 4400.</v>
+
+03:38:15.493 --> 03:38:24.733
+<v MOHD SALMAN>40,000 is 4000, 48,000 is 4800, sixty 5000 is 6510 percent is the policy.</v>
+
+03:38:26.013 --> 03:38:26.693
+<v MOHD SALMAN>Good as well.</v>
+
+03:38:31.053 --> 03:38:45.933
+<v MOHD SALMAN>So here I have given you the answer of all the question that I have asked you to do. First we have read out the data from Excel sheet and we have display the DF performance. This one is here.</v>
+
+03:38:47.573 --> 03:38:58.773
+<v MOHD SALMAN>Now we have showed you the random 2 using the sample. Then I have showed you the top two using the hat. Then I have showed you the.</v>
+
+03:39:00.493 --> 03:39:20.213
+<v MOHD SALMAN>Last two using the tail and then I have showed you the performance short by the performance score. So this is in ascending order. So here the 70757685 and I have showed you one more using the descending order. So here it is descending order.</v>
+
+03:39:20.213 --> 03:39:36.173
+<v MOHD SALMAN>Order 95928885 and so on. Then we have shown you the top three, top three out of performance 9592 and 88 the top three. Then we have seen the bonus.</v>
+
+03:39:36.613 --> 03:39:45.813
+<v MOHD SALMAN>This is the bonus. We have calculated the bonus and add that column. After adding that column we have displayed here do it.</v>
+
+03:40:57.813 --> 03:41:05.973
+<v MOHD SALMAN>Up to this level, I have showed you the solution of the exercise. Now let me show you a few more points here.</v>
+
+03:41:07.013 --> 03:41:14.893
+<v MOHD SALMAN>And these are other than the exercise. So exercise done up to this level, then few more points I&#39;m showing few more.</v>
+
+03:41:18.253 --> 03:41:18.813
+<v MOHD SALMAN>Things.</v>
+
+03:41:20.013 --> 03:41:22.653
+<v MOHD SALMAN>Let&#39;s do a few more things here. Let&#39;s see.</v>
+
+03:41:24.733 --> 03:41:30.253
+<v MOHD SALMAN>Find the maximum performance, Max performance, minimum performance.</v>
+
+03:41:40.613 --> 03:41:42.253
+<v MOHD SALMAN>The four men&#39;s score.</v>
+
+03:41:43.293 --> 03:41:45.213
+<v MOHD SALMAN>DF Performance Max.</v>
+
+03:41:46.373 --> 03:41:49.733
+<v MOHD SALMAN>This is the maximum 95. You want to find out the minimum.</v>
+
+03:41:56.413 --> 03:41:57.773
+<v MOHD SALMAN>Find out the.</v>
+
+03:41:58.973 --> 03:41:59.493
+<v MOHD SALMAN>Wind.</v>
+
+03:42:03.373 --> 03:42:05.573
+<v MOHD SALMAN>Minimum performance score.</v>
+
+03:42:08.013 --> 03:42:10.413
+<v MOHD SALMAN>Do your performance mean?</v>
+
+03:42:17.853 --> 03:42:20.493
+<v MOHD SALMAN>And employees.</v>
+
+03:42:21.933 --> 03:42:23.693
+<v MOHD SALMAN>For department.</v>
+
+03:42:27.653 --> 03:42:36.893
+<v MOHD SALMAN>Here is DF performance department values count. So here is in ID we have four, HR we have three, sales we have 3.</v>
+
+03:42:45.573 --> 03:42:49.333
+<v MOHD SALMAN>Let&#39;s say the group by department wise salary.</v>
+
+03:42:51.013 --> 03:42:54.973
+<v MOHD SALMAN>Average here it is department.</v>
+
+03:43:00.413 --> 03:43:04.053
+<v MOHD SALMAN>Average salary.</v>
+
+03:43:06.853 --> 03:43:08.013
+<v MOHD SALMAN>I learned.</v>
+
+03:43:10.573 --> 03:43:11.933
+<v MOHD SALMAN>Tell really.</v>
+
+03:43:13.253 --> 03:43:16.293
+<v MOHD SALMAN>Yeah, the department wise I will.</v>
+
+03:43:18.173 --> 03:43:26.093
+<v MOHD SALMAN>Right. So IT have the highest you can see the sum department wise sum of salary.</v>
+
+03:43:33.213 --> 03:43:34.973
+<v MOHD SALMAN>I am up salary.</v>
+
+03:43:40.333 --> 03:43:43.333
+<v MOHD SALMAN>Do you have performance? Goodbye.</v>
+
+03:43:44.293 --> 03:43:48.093
+<v MOHD SALMAN>DF performance go to pipe.</v>
+
+03:43:49.853 --> 03:43:51.573
+<v MOHD SALMAN>Department salary sum.</v>
+
+03:43:53.013 --> 03:43:54.173
+<v MOHD SALMAN>So here is the salary submission.</v>
+
+03:43:58.653 --> 03:43:59.453
+<v MOHD SALMAN>Then do it.</v>
+
+03:44:03.373 --> 03:44:04.653
+<v MOHD SALMAN>Good quickly.</v>
+
+03:47:10.933 --> 03:47:27.093
+<v MOHD SALMAN>See here is one question in chat Toffi Kramath have asked Sir, after the sorting step and to find the top three, can I use DEF performance dot short values performance score ascending fault?</v>
+
+03:47:27.733 --> 03:47:46.333
+<v MOHD SALMAN>Had three or just choose enlargest is the best. See you can use that way also. But The thing is we will use enlargest because this is the better way and it is the faster way. You can use this one also. That&#39;s also correct. No, nothing wrong with that as well.</v>
+
+03:47:46.773 --> 03:47:51.293
+<v MOHD SALMAN>But you&#39;ll do then, uh, not just right? And that is shorter also.</v>
+
+03:47:53.173 --> 03:47:55.493
+<v MOHD SALMAN>You will not write that much.</v>
+
+03:47:57.653 --> 03:48:04.413
+<v MOHD SALMAN>Short, better, faster or you want to use that one also you can use that&#39;s fine.</v>
+
+03:48:06.853 --> 03:48:07.853
+<v MOHD SALMAN>Got it.</v>
+
+03:48:21.493 --> 03:48:25.733
+<v MOHD SALMAN>Anyone else? Any other doubt question? If you have you can ask.</v>
+
+03:48:27.813 --> 03:48:30.173
+<v MOHD SALMAN>I&#39;m going to save this one for you.</v>
+
+03:48:34.493 --> 03:48:35.613
+<v MOHD SALMAN>File save.</v>
+
+03:48:43.533 --> 03:48:43.773
+<v MOHD SALMAN>Yeah.</v>
+
+03:48:54.013 --> 03:48:55.253
+<v MOHD SALMAN>File download.</v>
+
+03:49:05.653 --> 03:49:06.253
+<v MOHD SALMAN>Good.</v>
+
+03:49:09.733 --> 03:49:13.973
+<v MOHD SALMAN>I have downloaded this one. Now I&#39;ll go to your folder.</v>
+
+03:49:22.053 --> 03:49:31.893
+<v MOHD SALMAN>This is your folder. This is day #43. We have all the stuff here. Right click here open in terminal.</v>
+
+03:49:35.573 --> 03:49:36.493
+<v MOHD SALMAN>Did add all.</v>
+
+03:49:39.493 --> 03:49:42.573
+<v MOHD SALMAN>Get commit hyphen name.</v>
+
+03:49:45.413 --> 03:49:45.533
+<v MOHD SALMAN>Be.</v>
+
+03:49:46.733 --> 03:49:47.613
+<v MOHD SALMAN>43.</v>
+
+03:49:49.133 --> 03:49:49.453
+<v MOHD SALMAN>OK.</v>
+
+03:49:51.933 --> 03:49:53.733
+<v MOHD SALMAN>Lunch break.</v>
+
+03:49:56.333 --> 03:49:57.453
+<v MOHD SALMAN>Get push.</v>
+
+03:50:02.533 --> 03:50:05.893
+<v MOHD SALMAN>I have pushed this one to the or your GitHub.</v>
+
+03:50:11.293 --> 03:50:29.933
+<v MOHD SALMAN>So here we have seen the pandas. We have seen how we will read out the data from the Excel, how we have to create the, how we&#39;ll change the index, how we&#39;ll read out the data from Excel, how we&#39;ll read out the data from CSV.</v>
+
+03:50:30.373 --> 03:50:48.293
+<v MOHD SALMAN>How will do the basic functionality? How will find out the information? I will find out the describe data types and I will drop the columns. I will add the columns. I will do the basic things like find out the average maximum doing the.</v>
+
+03:50:48.493 --> 03:51:03.013
+<v MOHD SALMAN>Basic query is there. So those things we have seen after this break, this lunch break, we will join again at 2:30 and that time we will discuss about how we will clean the data.</v>
+
+03:51:03.693 --> 03:51:05.733
+<v MOHD SALMAN>Data cleaning. Uh.</v>
+
+03:51:06.373 --> 03:51:22.653
+<v MOHD SALMAN>And then we will go for the matplotlib as well. If you want to discuss any other thing, please let me know because this is the second last session. The last session will be the next Saturday. That will be the half day session and that day we will.</v>
+
+03:51:22.693 --> 03:51:30.533
+<v MOHD SALMAN>Or you can ask the thing if you want, but we can go for the recap of something that day as well. So by now.</v>
+
+03:51:33.333 --> 03:51:41.373
+<v MOHD SALMAN>If you have any doubt question up to now, you can ask, otherwise I will give you the break now. Anyone any question up to now?</v>
+
+03:51:54.293 --> 03:51:54.733
+<v MOHD SALMAN>Albert.</v>
+
+03:51:57.373 --> 03:51:58.253
+<v MOHD SALMAN>Fine then.</v>
+
+03:52:00.813 --> 03:52:10.013
+<v MOHD SALMAN>Let let&#39;s meet at 2:30. I&#39;m going to stop sharing and I&#39;m going to leave now. Let&#39;s meet at 2:30.</v>
+
+03:52:16.573 --> 03:52:16.813
+<v MOHD SALMAN>Find.</v>
+
+03:52:23.093 --> 03:52:23.293
+<v MOHD SALMAN>You.</v>

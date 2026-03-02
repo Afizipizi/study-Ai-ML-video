@@ -1,0 +1,991 @@
+WEBVTT
+
+01:50:58.785 --> 01:51:06.105
+<v MOHD SALMAN>Hi, good afternoon. Welcome back. Hope everyone is here now. Let me start. I&#39;m going to share my screen.</v>
+
+01:51:08.745 --> 01:51:21.705
+<v MOHD SALMAN>So we have seen the pandas before this break. We have seen how we will read out the data from the Excel and the other things. So let&#39;s see here.</v>
+
+01:51:29.825 --> 01:51:31.505
+<v MOHD SALMAN>Data cleaning using panda.</v>
+
+01:51:51.265 --> 01:51:52.745
+<v MOHD SALMAN>Here we go.</v>
+
+01:51:54.025 --> 01:51:55.305
+<v MOHD SALMAN>I will start from here.</v>
+
+01:51:57.745 --> 01:51:59.505
+<v MOHD SALMAN>This is your call app.</v>
+
+01:52:00.745 --> 01:52:04.425
+<v MOHD SALMAN>But research.google.com and as recap Part 2.</v>
+
+01:52:30.145 --> 01:52:30.945
+<v MOHD SALMAN>OK, oops.</v>
+
+01:53:30.665 --> 01:53:45.145
+<v MOHD SALMAN>So we are going to see here how we will do the cleaning of the data using the pandas. So in the previous in before this lunch break we have discussed how we will do the.</v>
+
+01:53:45.745 --> 01:53:49.745
+<v MOHD SALMAN>How will lead out for the?</v>
+
+01:53:53.225 --> 01:54:00.865
+<v MOHD SALMAN>Libraries using the fundas. See here how we&#39;ll do the data cleaning.</v>
+
+01:55:29.425 --> 01:55:34.705
+<v MOHD SALMAN>Here we go. Let me take a few files for you just to do the cleaning.</v>
+
+01:55:37.505 --> 01:55:38.105
+<v MOHD SALMAN>Here it is.</v>
+
+01:56:01.465 --> 01:56:03.305
+<v MOHD SALMAN>We have the Max.</v>
+
+01:56:06.545 --> 01:56:06.785
+<v MOHD SALMAN>Yeah.</v>
+
+01:56:13.825 --> 01:56:16.185
+<v MOHD SALMAN>We have here students.</v>
+
+01:56:55.305 --> 01:57:03.665
+<v MOHD SALMAN>Oh, Titanic data dot CSV I&#39;m going to use. Let me just put the Titanic data CSV for you.</v>
+
+01:57:19.305 --> 01:57:20.985
+<v MOHD SALMAN>We will go here.</v>
+
+01:57:23.265 --> 01:57:24.785
+<v MOHD SALMAN>Then go here.</v>
+
+01:57:30.465 --> 01:57:30.945
+<v MOHD SALMAN>Google.com.</v>
+
+01:57:37.665 --> 01:57:40.345
+<v MOHD SALMAN>You can sign in from here.</v>
+
+01:57:47.345 --> 01:57:49.105
+<v MOHD SALMAN>We will search for Titanic.</v>
+
+01:58:49.145 --> 01:58:53.665
+<v MOHD SALMAN>I want to see one thing where the data is not clean.</v>
+
+01:59:06.745 --> 01:59:07.665
+<v MOHD SALMAN>This is again.</v>
+
+02:00:01.825 --> 02:00:06.465
+<v MOHD SALMAN>Just one data sheet I need, otherwise I will download just a second.</v>
+
+02:00:29.945 --> 02:00:30.825
+<v MOHD SALMAN>Mm-hmm.</v>
+
+02:01:02.745 --> 02:01:08.265
+<v MOHD SALMAN>This is data Titan is missing data. It will just download this one.</v>
+
+02:01:23.145 --> 02:01:24.625
+<v MOHD SALMAN>Vitality translate.</v>
+
+02:01:26.265 --> 02:01:28.465
+<v MOHD SALMAN>Play the Titan.</v>
+
+02:01:32.265 --> 02:01:34.145
+<v MOHD SALMAN>Tightening data to.</v>
+
+02:01:35.665 --> 02:01:37.105
+<v MOHD SALMAN>It is download.</v>
+
+02:01:41.465 --> 02:01:43.145
+<v MOHD SALMAN>And I have put it here.</v>
+
+02:01:44.185 --> 02:02:02.625
+<v MOHD SALMAN>You can download from here directly or I will upload. You can download from there. Let me give the link. You can download directly from here from the or I&#39;m uploading it as well so you can download from here as well if you want.</v>
+
+02:02:03.145 --> 02:02:06.665
+<v MOHD SALMAN>I will go here, open the terminal.</v>
+
+02:02:10.225 --> 02:02:16.545
+<v MOHD SALMAN>There is git add all git commit hyphen name.</v>
+
+02:02:16.625 --> 02:02:17.585
+<v MOHD SALMAN>Different name.</v>
+
+02:02:20.065 --> 02:02:20.785
+<v MOHD SALMAN>I tell Nick.</v>
+
+02:02:25.985 --> 02:02:27.665
+<v MOHD SALMAN>Telling data.</v>
+
+02:02:30.265 --> 02:02:32.305
+<v MOHD SALMAN>Yes, me.</v>
+
+02:02:36.305 --> 02:02:37.105
+<v MOHD SALMAN>With push.</v>
+
+02:02:40.865 --> 02:02:42.145
+<v MOHD SALMAN>Uh, push it.</v>
+
+02:02:55.385 --> 02:03:02.785
+<v MOHD SALMAN>So I have push it here. If you want you can take it from here as well and we&#39;ll see.</v>
+
+02:03:08.665 --> 02:03:19.945
+<v MOHD SALMAN>So we&#39;ll go over here. You can take it from here as well. So it&#39;s up to you now. So I have given you both the links. You can download Windows.</v>
+
+02:03:49.305 --> 02:03:50.745
+<v MOHD SALMAN>So here we go.</v>
+
+02:03:51.705 --> 02:03:53.905
+<v MOHD SALMAN>Will go here call lab.</v>
+
+02:03:56.145 --> 02:03:56.345
+<v MOHD SALMAN>We will.</v>
+
+02:03:57.145 --> 02:03:58.305
+<v MOHD SALMAN>Go here, upload.</v>
+
+02:04:06.065 --> 02:04:07.025
+<v MOHD SALMAN>Upload a file.</v>
+
+02:04:08.625 --> 02:04:11.225
+<v MOHD SALMAN>From here, Titanic data set.</v>
+
+02:04:11.985 --> 02:04:13.185
+<v MOHD SALMAN>Open.</v>
+
+02:04:19.505 --> 02:04:22.465
+<v MOHD SALMAN>So we have uploaded it. We will import.</v>
+
+02:04:25.265 --> 02:04:26.425
+<v MOHD SALMAN>Andas has pity.</v>
+
+02:04:34.825 --> 02:04:41.545
+<v MOHD SALMAN>DF is equal to DF dot read.</v>
+
+02:04:42.585 --> 02:04:45.505
+<v MOHD SALMAN>PDA dot read CSV.</v>
+
+02:04:53.345 --> 02:04:54.225
+<v MOHD SALMAN>OK.</v>
+
+02:05:01.225 --> 02:05:02.305
+<v MOHD SALMAN>There is.</v>
+
+02:05:04.865 --> 02:05:06.425
+<v MOHD SALMAN>Dear dot had.</v>
+
+02:05:11.065 --> 02:05:17.505
+<v MOHD SALMAN>We&#39;ll see here they had. These are the values. We&#39;ll see here DF dot info.</v>
+
+02:05:39.065 --> 02:05:40.945
+<v MOHD SALMAN>It is also clean.</v>
+
+02:05:43.265 --> 02:05:44.505
+<v MOHD SALMAN>Hey, let&#39;s check.</v>
+
+02:05:55.545 --> 02:06:03.545
+<v MOHD SALMAN>Fine, so it&#39;s clean, but we&#39;ll apply all the things we can see here. DF dot is the null.</v>
+
+02:06:05.265 --> 02:06:08.785
+<v MOHD SALMAN>You want to check if any item is null, is null.</v>
+
+02:06:10.625 --> 02:06:11.465
+<v MOHD SALMAN>dot sum.</v>
+
+02:06:13.705 --> 02:06:26.465
+<v MOHD SALMAN>We will find out if any of these is null. Right now here is no null. I will show you one more example. We have something is null then you can do it. So here is no null.</v>
+
+02:06:46.105 --> 02:07:02.705
+<v MOHD SALMAN>I&#39;ve created here one data frame. Here is nothing is null. So I&#39;m creating one data frame and I have put the null here. So here is here is I have put the data name and department IT and all salary.</v>
+
+02:07:03.185 --> 02:07:14.305
+<v MOHD SALMAN>None, none, none. Here is we have put anything execute. I&#39;m giving this data to you as well, so you need not to type control C.</v>
+
+02:07:17.545 --> 02:07:21.785
+<v MOHD SALMAN>I have put it in your chat. You can use from here.</v>
+
+02:07:23.305 --> 02:07:42.825
+<v MOHD SALMAN>So then try up to this level quickly. Then I will show you the missing data. So first of all we have done this read out from the file, but that file is also clean so I have not used this one. This one I just show you. Now I&#39;m going to create one data.</v>
+
+02:07:42.825 --> 02:07:52.145
+<v MOHD SALMAN>M based on this data set so I&#39;m giving it to the DF is equal to PD dot data frame based on this data.</v>
+
+02:07:53.225 --> 02:08:07.985
+<v MOHD SALMAN>And if you&#39;ll see here if it is not clean, so you have seen the clean what it&#39;s giving you the result and if you&#39;ll see the unclean one PF dot info this time now if you&#39;ll see you&#39;ll see here the 9 entry is here.</v>
+
+02:08:08.985 --> 02:08:19.425
+<v MOHD SALMAN>The columns not null, not null is department object float object 9 entries 0 to 8. We will see here.</v>
+
+02:08:21.025 --> 02:08:25.625
+<v MOHD SALMAN>TF dot is null.</v>
+
+02:08:30.625 --> 02:08:31.585
+<v MOHD SALMAN>dot some.</v>
+
+02:08:38.265 --> 02:08:47.265
+<v MOHD SALMAN>So here you see zero, name is 0, age have one item is null, department is 1, salary is 2.</v>
+
+02:08:49.785 --> 02:08:53.945
+<v MOHD SALMAN>Can see from here also TF describe.</v>
+
+02:08:55.585 --> 02:09:10.785
+<v MOHD SALMAN>So this is not cleaned right now. It&#39;s happened. We&#39;ll see the describe. We&#39;ll find out this item salary and all. So once you will clean that the describe also will change.</v>
+
+02:09:11.065 --> 02:09:18.145
+<v MOHD SALMAN>So first we&#39;ll do work to the select, then I will show you how we&#39;ll remove these things, how we&#39;ll clean it.</v>
+
+02:09:19.985 --> 02:09:24.545
+<v MOHD SALMAN>So to check if something is null here, we will use DF is null sum.</v>
+
+02:09:25.905 --> 02:09:26.705
+<v MOHD SALMAN>Do it.</v>
+
+02:10:19.705 --> 02:10:24.905
+<v MOHD SALMAN>None of this level we have find out the this one null values.</v>
+
+02:10:27.545 --> 02:10:29.585
+<v MOHD SALMAN>This is just to check my web.</v>
+
+02:10:32.145 --> 02:10:32.745
+<v MOHD SALMAN>Check.</v>
+
+02:10:34.625 --> 02:10:35.665
+<v MOHD SALMAN>None values.</v>
+
+02:18:38.305 --> 02:18:43.225
+<v MOHD SALMAN>Done. Now we can check the duplicates as well. Let&#39;s see here code.</v>
+
+02:18:45.945 --> 02:18:49.305
+<v MOHD SALMAN>TF dot duplicate.</v>
+
+02:18:52.385 --> 02:18:53.305
+<v MOHD SALMAN>Duplicated.</v>
+
+02:19:02.545 --> 02:19:02.585
+<v MOHD SALMAN>0.</v>
+
+02:19:05.225 --> 02:19:10.825
+<v MOHD SALMAN>One false, two false, three false, four false. Eight is 2. The 8th one is duplicate.</v>
+
+02:19:14.905 --> 02:19:24.465
+<v MOHD SALMAN>And if you want to find out the sum of the duplicate values, how many DF dot duplicated?</v>
+
+02:19:27.825 --> 02:19:27.905
+<v MOHD SALMAN>So.</v>
+
+02:19:31.945 --> 02:19:34.265
+<v MOHD SALMAN>So here we will find out one.</v>
+
+02:19:37.305 --> 02:19:42.865
+<v MOHD SALMAN>No, let&#39;s see here. We want to drop the duplicate PF drop drop.</v>
+
+02:19:44.465 --> 02:19:55.545
+<v MOHD SALMAN>Duplicates in place true. I&#39;ve done this one. We&#39;ll see here DF now.</v>
+
+02:19:57.745 --> 02:20:16.105
+<v MOHD SALMAN>So we&#39;ll see here the the this one is 7. Earlier there was 8 value was 8 here and if we&#39;ll see here the now again if we check the duplicated sum after deleting the duplicate and or duplicated control C.</v>
+
+02:20:18.385 --> 02:20:37.345
+<v MOHD SALMAN>Here is 0. Earlier it was one. See this time it was one. Once I have to load it, it is gone. So you can remove the duplicated value. You can check the DF duplicated if the anything is duplicated so the 8th.</v>
+
+02:20:38.785 --> 02:20:50.625
+<v MOHD SALMAN>Duplicate. We have removed the duplicate. You can have multiple duplicates also. Here is a small chunk of code. We have put one so this way we can remove the duplicate. We&#39;ll do it quickly.</v>
+
+02:22:50.945 --> 02:22:51.105
+<v MOHD SALMAN>None.</v>
+
+02:22:52.545 --> 02:22:53.665
+<v MOHD SALMAN>Up to this level.</v>
+
+02:22:54.585 --> 02:23:08.065
+<v MOHD SALMAN>Right now let&#39;s see after deleting the I want to drop the the null values I have right here DF dot drop now.</v>
+
+02:23:10.345 --> 02:23:13.705
+<v MOHD SALMAN>And here we have right in place.</v>
+
+02:23:16.465 --> 02:23:17.665
+<v MOHD SALMAN>Is true.</v>
+
+02:23:19.865 --> 02:23:22.545
+<v MOHD SALMAN>Same place equal to true.</v>
+
+02:23:25.945 --> 02:23:31.185
+<v MOHD SALMAN>After doing this, I will write here DF, so we&#39;ll see here.</v>
+
+02:23:34.265 --> 02:23:43.985
+<v MOHD SALMAN>The 0245, so those values, those are duplicate. It&#39;s have been dropped from here.</v>
+
+02:23:49.305 --> 02:23:50.945
+<v MOHD SALMAN>That is Drogner.</v>
+
+02:23:53.065 --> 02:24:02.545
+<v MOHD SALMAN>There is one more method that is fill that will fill the values with the mean or anything.</v>
+
+02:25:18.745 --> 02:25:29.505
+<v MOHD SALMAN>Here is one more method that is fill now. For example you have done this one. I will show you this is drop now. Let me show you the fill now as well.</v>
+
+02:25:30.705 --> 02:25:45.265
+<v MOHD SALMAN>Yes, fill sample. So just to do that example fill now because we already have drop it, let me do it here again. What I have done here is I have created this data again.</v>
+
+02:25:47.025 --> 02:25:48.465
+<v MOHD SALMAN>Just to show you.</v>
+
+02:25:51.985 --> 02:25:53.105
+<v MOHD SALMAN>Control V.</v>
+
+02:25:55.385 --> 02:26:07.425
+<v MOHD SALMAN>I will show you the CSV as well. Let&#39;s first do this one. Here is I have created the DF. Let&#39;s say DF is equal to PD data frame data.</v>
+
+02:26:08.825 --> 02:26:14.465
+<v MOHD SALMAN>And here I have show you DF dot.</v>
+
+02:26:19.665 --> 02:26:23.505
+<v MOHD SALMAN>Here are the values for description we can see here.</v>
+
+02:26:25.265 --> 02:26:28.145
+<v MOHD SALMAN>DF dot shape.</v>
+
+02:26:29.545 --> 02:26:41.705
+<v MOHD SALMAN>And shape also you will see here 54 we have and we can have here DF dot is null dot sum.</v>
+
+02:26:43.945 --> 02:26:47.665
+<v MOHD SALMAN>We will see here the.</v>
+
+02:27:19.625 --> 02:27:36.305
+<v MOHD SALMAN>We have new is null plus one. So here is age is 1, department is 1, salary is 2. We have done this one. We have created it again and we have seen the the null values. Now I will use fill now this time.</v>
+
+02:27:36.665 --> 02:27:51.385
+<v MOHD SALMAN>The I have showed you, I will show you a pill. First we&#39;ll do this one. We have created the data, we have created the data frame, we have described it, we have showed the shape, then we have show the null values, number of null values.</v>
+
+02:27:51.865 --> 02:28:02.225
+<v MOHD SALMAN>Then we will go for Filna and I will show you an example using the CSV as well. First we&#39;ll do up to this level quickly. We&#39;ll see Filna on this one.</v>
+
+02:28:35.665 --> 02:28:36.225
+<v MOHD SALMAN>Done.</v>
+
+02:28:41.305 --> 02:28:44.305
+<v MOHD SALMAN>Then it is level. If not, do it quickly.</v>
+
+02:28:46.505 --> 02:28:55.345
+<v MOHD SALMAN>We will see here age have one department, one salary, it&#39;s two. So if you want to fill it the syntax.</v>
+
+02:29:03.105 --> 02:29:03.225
+<v MOHD SALMAN>Age.</v>
+
+02:29:05.545 --> 02:29:14.265
+<v MOHD SALMAN>So we have right here DF new edge fill not DF new edge mean in places true. We have done this one.</v>
+
+02:29:15.465 --> 02:29:33.425
+<v MOHD SALMAN>So the the the simple way is not in place of this one. We can use this way also. It&#39;s giving you the warning. If you don&#39;t want it this warning, let me show you again. I have to go to this, execute to this this.</v>
+
+02:29:35.465 --> 02:29:36.945
+<v MOHD SALMAN>DF shape.</v>
+
+02:29:38.625 --> 02:29:45.465
+<v MOHD SALMAN>Here if DF is alone, that one is right now, we will later to this way.</v>
+
+02:29:48.305 --> 02:29:48.905
+<v MOHD SALMAN>DF.</v>
+
+02:29:50.865 --> 02:29:51.745
+<v MOHD SALMAN>New.</v>
+
+02:29:55.225 --> 02:30:00.025
+<v MOHD SALMAN>Here is we will write column name that is age.</v>
+
+02:30:02.945 --> 02:30:03.585
+<v MOHD SALMAN>H.</v>
+
+02:30:05.065 --> 02:30:12.025
+<v MOHD SALMAN>colon df new page</v>
+
+02:30:14.265 --> 02:30:16.785
+<v MOHD SALMAN>And here is dot mean.</v>
+
+02:30:23.625 --> 02:30:25.425
+<v MOHD SALMAN>We&#39;re late here.</v>
+
+02:30:29.345 --> 02:30:30.665
+<v MOHD SALMAN>Play this.</v>
+
+02:30:37.465 --> 02:30:38.705
+<v MOHD SALMAN>Is equal to.</v>
+
+02:30:55.185 --> 02:30:59.065
+<v MOHD SALMAN>Data frame object is not callable.</v>
+
+02:31:21.105 --> 02:31:27.305
+<v MOHD SALMAN>DF new we want to change the age. Age is DF new age.</v>
+
+02:31:30.065 --> 02:31:33.425
+<v MOHD SALMAN>That mean in place is true.</v>
+
+02:31:50.185 --> 02:31:50.305
+<v MOHD SALMAN>OK.</v>
+
+02:32:10.145 --> 02:32:11.505
+<v MOHD SALMAN>Oh, this is done.</v>
+
+02:32:13.105 --> 02:32:15.545
+<v MOHD SALMAN>We want to delete.</v>
+
+02:32:16.545 --> 02:32:28.745
+<v MOHD SALMAN>We have 8 here DF new fill now age DF new in place drop. Now we will see here the DF new.</v>
+
+02:32:28.825 --> 02:32:28.985
+<v MOHD SALMAN>OK.</v>
+
+02:32:31.305 --> 02:32:32.425
+<v MOHD SALMAN>dot is a null.</v>
+
+02:32:35.825 --> 02:32:37.225
+<v MOHD SALMAN>There is a little some.</v>
+
+02:32:42.225 --> 02:32:57.865
+<v MOHD SALMAN>We&#39;ll see here the age is 0 now. Similarly the other things we can check. We will write here. We don&#39;t see we can write for the department. So DF new fill now here the column name.</v>
+
+02:32:58.385 --> 02:33:00.185
+<v MOHD SALMAN>That is department.</v>
+
+02:33:02.425 --> 02:33:02.785
+<v MOHD SALMAN>Import.</v>
+
+02:33:04.905 --> 02:33:05.185
+<v MOHD SALMAN>Maint.</v>
+
+02:33:07.665 --> 02:33:09.345
+<v MOHD SALMAN>There is a department.</v>
+
+02:33:15.705 --> 02:33:27.745
+<v MOHD SALMAN>Actually department is not this one number, so we will change the salary. Then we&#39;ll change the department also salary. It is new salary.</v>
+
+02:33:33.585 --> 02:33:37.505
+<v MOHD SALMAN>We have done this one too. You can see here.</v>
+
+02:33:39.345 --> 02:33:40.985
+<v MOHD SALMAN>BF is null.</v>
+
+02:33:44.745 --> 02:33:54.505
+<v MOHD SALMAN>Control B. So department is also zero. Now you can see sorry, salary is also zero. Now you can see here DF.</v>
+
+02:33:56.065 --> 02:34:04.745
+<v MOHD SALMAN>Yeah, the TF. So you will see here. Now the department is the IT app that the the things is here.</v>
+
+02:34:05.825 --> 02:34:05.945
+<v MOHD SALMAN>Yeah.</v>
+
+02:34:07.185 --> 02:34:10.825
+<v MOHD SALMAN>Department is one is null. Here is that one.</v>
+
+02:34:18.985 --> 02:34:20.505
+<v MOHD SALMAN>Do you right?</v>
+
+02:34:38.905 --> 02:34:46.265
+<v MOHD SALMAN>So everything is fixed. Now the department one-on-one place it is null, on which place it is null.</v>
+
+02:34:53.985 --> 02:35:02.625
+<v MOHD SALMAN>1234567 place. Let me check the DF had 7.</v>
+
+02:35:07.505 --> 02:35:09.305
+<v MOHD SALMAN>You try news I want to check.</v>
+
+02:35:29.865 --> 02:35:33.385
+<v MOHD SALMAN>So we have done this one. You can see the TF.</v>
+
+02:35:34.705 --> 02:35:51.425
+<v MOHD SALMAN>Department I also on one place is null. We will check that one as well so we will change it. But the department is the text. So how will change it that I will show you after this do it up to this level. So what I have done here is.</v>
+
+02:35:51.505 --> 02:36:06.785
+<v MOHD SALMAN>I have showed you the fill in example. So we have the DEF null sum I have showed then I have changed the age, then I have checked again, I have changed the salary, then check again and I have showed the DEF.</v>
+
+02:36:07.105 --> 02:36:13.665
+<v MOHD SALMAN>The department is on one place is none. The rest is correct. After this, do it quickly.</v>
+
+02:43:54.265 --> 02:43:58.065
+<v MOHD SALMAN>Now let&#39;s go for this department as well.</v>
+
+02:44:03.225 --> 02:44:08.785
+<v MOHD SALMAN>So code will light here DF dot in.</v>
+
+02:44:11.065 --> 02:44:11.945
+<v MOHD SALMAN>Department.</v>
+
+02:44:13.785 --> 02:44:16.545
+<v MOHD SALMAN>Department DF mode zero in place 2.</v>
+
+02:44:18.025 --> 02:44:20.665
+<v MOHD SALMAN>There is code. We&#39;ll see here.</v>
+
+02:44:22.905 --> 02:44:24.025
+<v MOHD SALMAN>DF.</v>
+
+02:44:26.705 --> 02:44:30.865
+<v MOHD SALMAN>We&#39;ll see all the things over here. Now you can check.</v>
+
+02:44:33.665 --> 02:44:35.665
+<v MOHD SALMAN>After this we can check.</v>
+
+02:44:38.665 --> 02:44:42.705
+<v MOHD SALMAN>Sorry DF dot is null dot sum.</v>
+
+02:44:51.785 --> 02:44:54.145
+<v MOHD SALMAN>So here is everything is clear.</v>
+
+02:44:57.425 --> 02:45:00.345
+<v MOHD SALMAN>This is how you will do.</v>
+
+02:45:12.105 --> 02:45:13.545
+<v MOHD SALMAN>Done. Call of you.</v>
+
+02:45:25.625 --> 02:45:28.025
+<v MOHD SALMAN>If you want to see here.</v>
+
+02:45:30.185 --> 02:45:33.625
+<v MOHD SALMAN>EF dot dot drop.</v>
+
+02:45:35.785 --> 02:45:36.265
+<v MOHD SALMAN>Duplicates.</v>
+
+02:45:39.185 --> 02:45:40.825
+<v MOHD SALMAN>From here in place to.</v>
+
+02:45:42.705 --> 02:45:44.665
+<v MOHD SALMAN>You can see here now.</v>
+
+02:45:46.225 --> 02:45:47.625
+<v MOHD SALMAN>DF.</v>
+
+02:45:49.385 --> 02:45:49.785
+<v MOHD SALMAN>OK.</v>
+
+02:45:51.985 --> 02:45:53.745
+<v MOHD SALMAN>There is when it&#39;s gone.</v>
+
+02:45:59.585 --> 02:46:03.945
+<v MOHD SALMAN>Let&#39;s say I&#39;m at that. Let&#39;s go. So this is how I will clean.</v>
+
+02:46:07.625 --> 02:46:13.305
+<v MOHD SALMAN>And quickly then I will show you with with.</v>
+
+02:46:14.985 --> 02:46:18.985
+<v MOHD SALMAN>CSV file will download and put.</v>
+
+02:46:29.985 --> 02:46:31.305
+<v MOHD SALMAN>1359.</v>
+
+02:46:33.265 --> 02:46:41.865
+<v MOHD SALMAN>So here the customer CSV dirty. I will download it and I will use it to show you the sound.</v>
+
+02:46:43.785 --> 02:46:44.105
+<v MOHD SALMAN>Save.</v>
+
+02:46:48.185 --> 02:46:53.025
+<v MOHD SALMAN>Do first up to this level, then I will use the dirty file and clean that and.</v>
+
+02:50:20.545 --> 02:50:22.785
+<v MOHD SALMAN>Now let me upload it.</v>
+
+02:50:26.425 --> 02:50:27.945
+<v MOHD SALMAN>We&#39;ll go here.</v>
+
+02:50:31.265 --> 02:50:35.745
+<v MOHD SALMAN>And I will upload it open terminal.</v>
+
+02:50:39.825 --> 02:50:44.825
+<v MOHD SALMAN>It add all it commit by finance.</v>
+
+02:50:48.465 --> 02:50:52.305
+<v MOHD SALMAN>Adding our husband customers.</v>
+
+02:50:54.465 --> 02:50:55.705
+<v MOHD SALMAN>So that it.</v>
+
+02:50:59.745 --> 02:51:00.985
+<v MOHD SALMAN>Good push.</v>
+
+02:51:02.545 --> 02:51:04.665
+<v MOHD SALMAN>We are push it.</v>
+
+02:51:07.185 --> 02:51:08.865
+<v MOHD SALMAN>Now what we&#39;ll do is.</v>
+
+02:51:12.825 --> 02:51:14.345
+<v MOHD SALMAN>We&#39;ll go here.</v>
+
+02:51:16.385 --> 02:51:23.785
+<v MOHD SALMAN>You can download it from the GitHub. I&#39;m going to upload it here, so let me write here the text.</v>
+
+02:51:25.025 --> 02:51:33.545
+<v MOHD SALMAN>Cleaning the customer CSC.</v>
+
+02:51:43.425 --> 02:51:44.745
+<v MOHD SALMAN>still says.</v>
+
+02:51:47.305 --> 02:51:49.865
+<v MOHD SALMAN>What is traps you will see here?</v>
+
+02:51:50.905 --> 02:51:53.065
+<v MOHD SALMAN>Uh, here do you have?</v>
+
+02:51:54.825 --> 02:51:55.385
+<v MOHD SALMAN>Upload.</v>
+
+02:51:57.425 --> 02:51:59.625
+<v MOHD SALMAN>Customer&#39;s dirty CSV open.</v>
+
+02:52:03.785 --> 02:52:19.545
+<v MOHD SALMAN>Do up to this level. You can go download it from GitHub. I have uploaded only GitHub and you can upload over here. Then we will read out from here. We will write here DF is equal to get content dot CSV.</v>
+
+02:52:21.025 --> 02:52:26.745
+<v MOHD SALMAN>Uh, we will write the path, copy the path, we paste it here.</v>
+
+02:52:29.225 --> 02:52:36.385
+<v MOHD SALMAN>Control B. So here we have read out. We will see here TF.</v>
+
+02:52:39.345 --> 02:52:40.065
+<v MOHD SALMAN>Here it is.</v>
+
+02:52:43.985 --> 02:52:46.145
+<v MOHD SALMAN>DF dot info.</v>
+
+02:52:48.145 --> 02:52:48.545
+<v MOHD SALMAN>And.</v>
+
+02:52:52.305 --> 02:52:58.945
+<v MOHD SALMAN>No, no, no, no, no, no, no. We will see here.</v>
+
+02:53:00.505 --> 02:53:03.825
+<v MOHD SALMAN>This is a good do up to this level.</v>
+
+02:59:55.505 --> 03:00:03.065
+<v MOHD SALMAN>Done up to this level. Now we&#39;ll see here DF dot is the null.</v>
+
+03:00:05.505 --> 03:00:07.785
+<v MOHD SALMAN>Doc isn&#39;t on some.</v>
+
+03:00:11.465 --> 03:00:28.465
+<v MOHD SALMAN>We&#39;ll see here. Customer ID is 0 is clean. Name have two places is null. Case is on three places null. City is on top place is null. Purchase amount is on three places. Membership on two places.</v>
+
+03:00:28.825 --> 03:00:30.145
+<v MOHD SALMAN>If you want to check.</v>
+
+03:00:33.665 --> 03:00:34.305
+<v MOHD SALMAN>Here dot.</v>
+
+03:00:41.905 --> 03:00:42.945
+<v MOHD SALMAN>Duplicated.</v>
+
+03:00:46.585 --> 03:01:02.505
+<v MOHD SALMAN>We&#39;ll see the duplicated values. So one falls 23789. These are the duplicated. We want to see total duplicated values DF dot duplicated dot sum.</v>
+
+03:01:03.065 --> 03:01:11.265
+<v MOHD SALMAN>Duplicated dot sum find out the total duplicated values here is.</v>
+
+03:01:14.545 --> 03:01:15.745
+<v MOHD SALMAN>NP0.</v>
+
+03:01:23.785 --> 03:01:25.585
+<v MOHD SALMAN>So total duplicated is 0.</v>
+
+03:01:27.665 --> 03:01:29.185
+<v MOHD SALMAN>So no then.</v>
+
+03:01:32.225 --> 03:01:37.105
+<v MOHD SALMAN>No replicated values here. Do it up to this level quickly.</v>
+
+03:06:08.985 --> 03:06:26.185
+<v MOHD SALMAN>None. So fine. Let&#39;s take a short break, just 20 minutes. I will be back after offering the break and we will continue this discussion. We will clean this sheet and then we&#39;ll wrap up. So let&#39;s clean it up for 20 minutes. Let&#39;s go and come back.</v>
+
+03:29:08.185 --> 03:29:11.545
+<v MOHD SALMAN>Hi, welcome back. Let&#39;s see here quickly.</v>
+
+03:29:13.145 --> 03:29:16.065
+<v MOHD SALMAN>To this thing we have seen here.</v>
+
+03:29:17.545 --> 03:29:23.385
+<v MOHD SALMAN>The duplicate is none here. Right now we have seen the missing values.</v>
+
+03:29:25.985 --> 03:29:38.785
+<v MOHD SALMAN>So you can see here the missing values. We have the name is 2 times is missing, age is three times missing, city is two time missing, purchase amount is three time missing, membership is two time missing.</v>
+
+03:29:47.705 --> 03:29:49.305
+<v MOHD SALMAN>And if you see here.</v>
+
+03:29:50.545 --> 03:29:52.505
+<v MOHD SALMAN>Code DF.</v>
+
+03:29:55.185 --> 03:29:55.745
+<v MOHD SALMAN>We&#39;ll see here.</v>
+
+03:29:57.865 --> 03:30:13.025
+<v MOHD SALMAN>The name NAN NAN, this thing is here. So we want to fill the name with the unknown where is the non is written. So what we&#39;ll do here is DF name.</v>
+
+03:30:16.745 --> 03:30:22.025
+<v MOHD SALMAN>Name is equal to DF name.</v>
+
+03:30:30.625 --> 03:30:31.345
+<v MOHD SALMAN>Unknown.</v>
+
+03:30:37.945 --> 03:30:39.585
+<v MOHD SALMAN>Will not be whatever you want, right?</v>
+
+03:30:41.385 --> 03:30:45.305
+<v MOHD SALMAN>We have done this one. Now you can see here the DF.</v>
+
+03:30:47.905 --> 03:30:51.265
+<v MOHD SALMAN>So here is the name unknown.</v>
+
+03:30:52.905 --> 03:31:05.785
+<v MOHD SALMAN>Unknown variable. The name is not given. It&#39;s unknown. You can see here again this DF is null sum. You will see the name is 0 now, right?</v>
+
+03:31:07.625 --> 03:31:11.265
+<v MOHD SALMAN>So we have done this one, the name first of all.</v>
+
+03:31:16.505 --> 03:31:19.145
+<v MOHD SALMAN>Then we will go for it.</v>
+
+03:31:20.785 --> 03:31:24.985
+<v MOHD SALMAN>What else thing is remaining here? Uh.</v>
+
+03:31:25.985 --> 03:31:29.905
+<v MOHD SALMAN>We&#39;ll see here age, city, purchase amount, membership.</v>
+
+03:31:35.545 --> 03:31:36.225
+<v MOHD SALMAN>The.</v>
+
+03:31:37.665 --> 03:31:38.185
+<v MOHD SALMAN>In it.</v>
+
+03:31:41.105 --> 03:31:50.305
+<v MOHD SALMAN>City purchase amount to DF city. Also I&#39;m putting unknown city is equal to.</v>
+
+03:31:51.905 --> 03:31:53.665
+<v MOHD SALMAN>DF City.</v>
+
+03:31:59.905 --> 03:32:00.305
+<v MOHD SALMAN>dot.</v>
+
+03:32:02.065 --> 03:32:02.785
+<v MOHD SALMAN>It&#39;s been.</v>
+
+03:32:04.385 --> 03:32:06.225
+<v MOHD SALMAN>It is unknown.</v>
+
+03:32:31.145 --> 03:32:32.785
+<v MOHD SALMAN>The best thing is the number.</v>
+
+03:32:45.625 --> 03:33:00.545
+<v MOHD SALMAN>Here the customer AD purchase amount membership do think is here so we want to change this one as well. So we&#39;ll see here the DF info, DF info from here.</v>
+
+03:33:00.585 --> 03:33:13.025
+<v MOHD SALMAN>Here you will see here this one is membership is object and this customer ID is integer. The age is flawed so the age is flawed. We can see here.</v>
+
+03:33:14.425 --> 03:33:30.825
+<v MOHD SALMAN>The age is fraud. This one is object so we can put this one is also a string so remaining is membership. Let me change the membership also the default membership control C.</v>
+
+03:33:30.905 --> 03:33:34.425
+<v MOHD SALMAN>I have put here controlling DF.</v>
+
+03:33:37.425 --> 03:33:39.025
+<v MOHD SALMAN>Membership.</v>
+
+03:33:40.665 --> 03:33:42.145
+<v MOHD SALMAN>There is membership.</v>
+
+03:33:45.945 --> 03:34:00.305
+<v MOHD SALMAN>Membership. We&#39;ll see here the membership right now there is gold, silver, NA, silver. So we can put the unknown or we can put something else, for example.</v>
+
+03:34:00.985 --> 03:34:02.265
+<v MOHD SALMAN>He had put here the basic.</v>
+
+03:34:06.185 --> 03:34:16.185
+<v MOHD SALMAN>So you can put anything. So now if you&#39;ll see here the three object things we have, we have chained them. So if we&#39;ll see here.</v>
+
+03:34:17.265 --> 03:34:30.065
+<v MOHD SALMAN>The DF again. So you have the basic where is the name it&#39;s basic and where it does name is not given unknown the purchase amount thing is remaining that we can check.</v>
+
+03:34:39.145 --> 03:34:39.665
+<v MOHD SALMAN>Good.</v>
+
+03:39:30.705 --> 03:39:35.185
+<v MOHD SALMAN>So just purchase amount is. Let me change that one. So DF.</v>
+
+03:39:36.545 --> 03:39:39.665
+<v MOHD SALMAN>Here is purchase amount.</v>
+
+03:39:42.385 --> 03:39:43.945
+<v MOHD SALMAN>Is equal to DF.</v>
+
+03:39:47.825 --> 03:39:49.385
+<v MOHD SALMAN>It is amount.</v>
+
+03:39:51.505 --> 03:39:52.385
+<v MOHD SALMAN>And not.</v>
+
+03:39:53.905 --> 03:39:55.305
+<v MOHD SALMAN>dot fill.</v>
+
+03:40:00.665 --> 03:40:10.105
+<v MOHD SALMAN>We have purchased the amount of green. So meanwhile we have it. Now it&#39;s done. You can see here the deer.</v>
+
+03:40:13.705 --> 03:40:14.825
+<v MOHD SALMAN>So you have the DF.</v>
+
+03:40:16.265 --> 03:40:23.465
+<v MOHD SALMAN>We have the purchase amount everything. There is nothing is missing. Now you can check one more time.</v>
+
+03:40:25.505 --> 03:40:32.105
+<v MOHD SALMAN>DF is the null sum control C We&#39;ll check it quickly.</v>
+
+03:40:34.745 --> 03:40:35.905
+<v MOHD SALMAN>Control D.</v>
+
+03:40:37.825 --> 03:40:53.745
+<v MOHD SALMAN>It is this age is remain so let&#39;s just do the age also. So I have copied this one control CI have pasted here control V DF age.</v>
+
+03:40:54.105 --> 03:40:54.225
+<v MOHD SALMAN>OK.</v>
+
+03:40:55.465 --> 03:40:59.865
+<v MOHD SALMAN>Here is also I have read the mean here is age.</v>
+
+03:41:04.905 --> 03:41:05.505
+<v MOHD SALMAN>8.</v>
+
+03:41:09.305 --> 03:41:16.545
+<v MOHD SALMAN>I&#39;ve done this one. Now you can check it again dear. So here is age of done.</v>
+
+03:41:18.105 --> 03:41:19.745
+<v MOHD SALMAN>You can see here.</v>
+
+03:41:20.825 --> 03:41:22.425
+<v MOHD SALMAN>000</v>
+
+03:41:28.425 --> 03:41:41.145
+<v MOHD SALMAN>Well, if you don&#39;t want these, the mean, you can write the median and write the other thing that&#39;s why.</v>
+
+03:41:43.145 --> 03:41:56.625
+<v MOHD SALMAN>Now it&#39;s showing you the decimal point here. You can see here the age is showing you the decimal point. We don&#39;t want the decimal age, we want the full age. So for that we can change the data type of age. We&#39;ll go here.</v>
+
+03:41:59.865 --> 03:42:01.145
+<v MOHD SALMAN>DF.</v>
+
+03:42:02.785 --> 03:42:02.865
+<v MOHD SALMAN>Age.</v>
+
+03:42:06.985 --> 03:42:11.585
+<v MOHD SALMAN>Is equal to DFH.</v>
+
+03:42:15.505 --> 03:42:21.465
+<v MOHD SALMAN>As type dot as type integer.</v>
+
+03:42:24.905 --> 03:42:26.385
+<v MOHD SALMAN>Is it today?</v>
+
+03:42:32.265 --> 03:42:34.025
+<v MOHD SALMAN>Yes, integer.</v>
+
+03:45:40.745 --> 03:45:57.465
+<v MOHD SALMAN>Done. So this one is how we clean the data. You can see here DF dot. So if you want to see something, for example the city, you want to check how many unique cities are here in your data frame. So you can see here DF.</v>
+
+03:45:57.825 --> 03:46:00.105
+<v MOHD SALMAN>City dot unique.</v>
+
+03:46:04.225 --> 03:46:08.785
+<v MOHD SALMAN>DF City.</v>
+
+03:46:10.625 --> 03:46:12.065
+<v MOHD SALMAN>dot unique.</v>
+
+03:46:13.865 --> 03:46:13.985
+<v MOHD SALMAN>OK.</v>
+
+03:46:20.345 --> 03:46:28.825
+<v MOHD SALMAN>So you will find out the all the cities that you are covering. So in this one we are covering Delhi, Mumbai and Non Pune, Chennai.</v>
+
+03:46:47.025 --> 03:46:49.985
+<v MOHD SALMAN>And here is your final clean data.</v>
+
+03:46:51.985 --> 03:46:57.425
+<v MOHD SALMAN>Final Data. It&#39;s your deal.</v>
+
+03:46:59.945 --> 03:47:01.585
+<v MOHD SALMAN>This is your final clear data.</v>
+
+03:47:31.865 --> 03:47:38.105
+<v MOHD SALMAN>If I need duplicate value you want to see here, let me show you TF dot shape.</v>
+
+03:47:41.265 --> 03:47:41.985
+<v MOHD SALMAN>Ship.</v>
+
+03:47:43.825 --> 03:47:57.385
+<v MOHD SALMAN>Shape is a property, so we don&#39;t like this. So 10-6 is here. We&#39;ll IDF dot drop duplicates in place.</v>
+
+03:47:59.065 --> 03:48:04.865
+<v MOHD SALMAN>you will see here you can check here tf.shave</v>
+
+03:48:06.305 --> 03:48:12.945
+<v MOHD SALMAN>So here here. So there was no duplicate, so 10/6 was earlier and now it&#39;s 10/6.</v>
+
+03:48:15.945 --> 03:48:34.625
+<v MOHD SALMAN>So we we can the data you have seen here how we will read out the data from the file. So we have read out from the content customer dot ACF and see here the info, the data types and all. Based on the data type we can apply our things.</v>
+
+03:48:35.145 --> 03:48:54.665
+<v MOHD SALMAN>We can use the drop line if we want to drop, but I have showed you this film and this one. So here the DF is null is sum. We have seen how many values was null and then we have started doing this. So at the starting there was is was three, the purchase amount 3 membership is since we have.</v>
+
+03:48:54.745 --> 03:49:11.985
+<v MOHD SALMAN>If you want to run it one more time, you can see here. So I have run it from here. We&#39;ll see here the DF. You have all the items here. You&#39;ll see here the info, the info here int object and all if you&#39;ll find out the null values.</v>
+
+03:49:12.345 --> 03:49:29.425
+<v MOHD SALMAN>Here is the customer&#39;s guide is zero, name is 2 times null, A three times null, city two times null, purchase amount three times null, membership is two time nulls. Then what we have done here is we have changed the name, then we have changed the city.</v>
+
+03:49:29.865 --> 03:49:47.505
+<v MOHD SALMAN>Then we have changed the membership, then we have changed the purchase amount. Then we have changed the DF. We have seen the DF. There is nothing is null now. You can check the DF is null sum, so all the things are 00. Customer 0 is 0.</v>
+
+03:49:48.545 --> 03:49:56.385
+<v MOHD SALMAN>Age is remain. OK, so we have clear the age as well. Here we have put the data type of age you will see here.</v>
+
+03:49:57.625 --> 03:50:16.865
+<v MOHD SALMAN>DF now age is also in this one you can run it again. This DF is a null sum so here the age is also 00 so your data set is clean. So this one you have understand how you will handle the data files using the.</v>
+
+03:50:17.665 --> 03:50:23.065
+<v MOHD SALMAN>Pandas, let me download it, save it in your drive and upload it.</v>
+
+03:50:24.025 --> 03:50:25.265
+<v MOHD SALMAN>Here is file.</v>
+
+03:50:26.705 --> 03:50:27.585
+<v MOHD SALMAN>Save.</v>
+
+03:50:29.385 --> 03:50:31.305
+<v MOHD SALMAN>And file download.</v>
+
+03:50:39.465 --> 03:50:42.785
+<v MOHD SALMAN>And we have save it here.</v>
+
+03:50:47.945 --> 03:51:05.105
+<v MOHD SALMAN>The next session will be on Saturday and that will be the last session and in that particular session, if you want to ask something, you can let me know anything you want to recap and in that session we will create a group photographs as well.</v>
+
+03:51:05.385 --> 03:51:08.865
+<v MOHD SALMAN>And that will be the, uh, the last fully.</v>
+
+03:51:10.225 --> 03:51:17.385
+<v MOHD SALMAN>Maybe we&#39;ll open it open in terminal. So Saturday will be your last day the next session we get.</v>
+
+03:51:18.345 --> 03:51:22.345
+<v MOHD SALMAN>Add all git commit hyphen M.</v>
+
+03:51:24.305 --> 03:51:27.145
+<v MOHD SALMAN>Uh, let&#39;s see here. Uh.</v>
+
+03:51:33.105 --> 03:51:33.505
+<v MOHD SALMAN>The.</v>
+
+03:51:34.825 --> 03:51:36.225
+<v MOHD SALMAN>43 done.</v>
+
+03:51:39.225 --> 03:51:40.745
+<v MOHD SALMAN>Quick push.</v>
+
+03:51:56.785 --> 03:52:09.425
+<v MOHD SALMAN>So today, this much from my end, I am going to end the session. Let&#39;s meet on Saturday. Bye for now. Thanks for returning. Take care.</v>
+
+03:52:18.585 --> 03:52:30.625
+<v MOHD SALMAN>And that content and all you can download might be after this last session. These things will not be available after one week. Bye. Bye for now. Take care. Thank you.</v>
