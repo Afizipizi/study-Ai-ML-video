@@ -1,5 +1,0 @@
-mkdir my-folder
-touch my-folder/.gitkeep
-git add my-folder
-git commit -m "Add my-folder"
-git push
